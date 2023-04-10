@@ -5,8 +5,11 @@ on:
     - cron: '0 */2 * * *'
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
-  minecraft:
+  update:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
