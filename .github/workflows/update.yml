@@ -21,10 +21,16 @@ jobs:
           deno-version: v1.x
 
       - name: Fetch mappings
+        id: mappings
         run: deno run --allow-all mod.ts
 
-      - name: Commit & push
-        uses: actions-js/push@master
+      - uses: stefanzweifel/git-auto-commit-action@v4
+        id: auto-commit
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          message: 'chore: update mappings.json'
+          commit_message: 'chore: update mappings'
+      
+      - uses: peter-evans/commit-comment@v2
+        if: steps.auto-commit.outputs.changes_detected == 'true'
+        with:
+          sha: ${{ steps.auto-commit.outputs.commit_hash }}
+          body: ${{ steps.mappings.outputs.commit-comments }}

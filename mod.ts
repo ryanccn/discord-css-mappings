@@ -1,34 +1,69 @@
-const safeFetch = async (url: string) => {
-  const res = await fetch(url);
-  if (!res.ok) {
-    throw new Error(`Error fetching ${url}: ${res.status} ${res.statusText}`);
-  }
+import { setMultilineOutput } from "./ci.ts";
+import { getMappings, type MappingsFile } from "./mappings.ts";
 
-  return res.text();
+const oldMappings = await Deno.readTextFile("mappings.json")
+	.then(JSON.parse) as MappingsFile;
+const newMappings = await getMappings();
+
+const oldKeys = Object.keys(oldMappings);
+const newKeys = Object.keys(newMappings);
+
+const removedKeys = [...oldKeys].filter((k) => !newKeys.includes(k));
+const addedKeys = [...newKeys].filter((k) => !oldKeys.includes(k));
+
+const changedKeys = [...newKeys]
+	.filter((k) =>
+		oldKeys.includes(k) && oldMappings[k].length !== newMappings[k].length
+	);
+
+const summary = {
+	removed: removedKeys.map((key) => ({ key, length: oldMappings[key].length })),
+	added: addedKeys.map((key) => ({ key, length: newMappings[key].length })),
+	changed: changedKeys.map((key) => ({
+		key,
+		old: oldMappings[key].length,
+		new: newMappings[key].length,
+	})),
 };
 
-const html = await safeFetch("https://discord.com/app");
-const originalCSSURL = new URL(
-  html.match(/<link rel="stylesheet" href="([/a-zA-Z0-9\.]+)"/)![1],
-  "https://discord.com/",
-).toString();
-const originalCSS = await safeFetch(originalCSSURL);
+const markdownChangelog = `
+## Removed classes
 
-const classNameRegex =
-  /\.([a-zA-Z0-9\-]+)\-[a-zA-Z0-9\_\-]{6}(?=(\.|,|\{|\[| |:|\)))/g;
-const classNameMap = new Map();
+${
+	summary.removed.length > 0
+		? summary.removed.map((k) => `- \`${k.key}\` (${k.length} classes)`).join(
+			"\n",
+		)
+		: "*None*"
+}
 
-[...originalCSS.matchAll(classNameRegex)].forEach((v) => {
-  const mappedClass = v[0].substring(1);
+## Added classes
 
-  if (!classNameMap.has(v[1])) {
-    classNameMap.set(v[1], [mappedClass]);
-  } else if (!classNameMap.get(v[1]).includes(mappedClass)) {
-    classNameMap.get(v[1]).push(mappedClass);
-  }
-});
+${
+	summary.added.length > 0
+		? summary.added.map((k) => `- \`${k.key}\` (${k.length} classes)`).join(
+			"\n",
+		)
+		: "*None*"
+}
+
+## Changed classes
+
+${
+	summary.changed.length > 0
+		? summary.changed.map((k) => `- \`${k.key}\` (${k.old} → ${k.new} classes)`)
+			.join(
+				"\n",
+			)
+		: "*None*"
+}
+`.trim();
 
 await Deno.writeTextFile(
-  "mappings.json",
-  JSON.stringify(Object.fromEntries(classNameMap), undefined, 2),
+	"mappings.json",
+	JSON.stringify(newMappings, undefined, 2),
+);
+await setMultilineOutput(
+	"commit-comments",
+	markdownChangelog,
 );
