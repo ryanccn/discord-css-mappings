@@ -3,6 +3,9 @@ import { getOctokit } from "@actions/github";
 import { execa, $ } from "execa";
 
 import { getMappings, type MappingsFile } from "./mappings";
+import { getSummary } from "./summary";
+
+import { yellow } from "kleur/colors";
 
 console.log("Fetching mappings");
 
@@ -11,65 +14,14 @@ const oldMappings = (await readFile("mappings.json", {
 }).then(JSON.parse)) as MappingsFile;
 const newMappings = await getMappings();
 
-const oldKeys = Object.keys(oldMappings);
-const newKeys = Object.keys(newMappings);
-
 console.log("Creating summary");
-
-const removedKeys = [...oldKeys].filter((k) => !newKeys.includes(k));
-const addedKeys = [...newKeys].filter((k) => !oldKeys.includes(k));
-
-const changedKeys = [...newKeys].filter(
-	(k) => oldKeys.includes(k) && oldMappings[k].length !== newMappings[k].length
-);
-
-const summary = {
-	removed: removedKeys.map((key) => ({ key, length: oldMappings[key].length })),
-	added: addedKeys.map((key) => ({ key, length: newMappings[key].length })),
-	changed: changedKeys.map((key) => ({
-		key,
-		old: oldMappings[key].length,
-		new: newMappings[key].length,
-	})),
-};
-
-const markdownChangelog = `
-## Removed classes
-
-${
-	summary.removed.length > 0
-		? summary.removed
-				.map((k) => `- \`${k.key}\` (${k.length} classes)`)
-				.join("\n")
-		: "*None*"
-}
-
-## Added classes
-
-${
-	summary.added.length > 0
-		? summary.added
-				.map((k) => `- \`${k.key}\` (${k.length} classes)`)
-				.join("\n")
-		: "*None*"
-}
-
-## Changed classes
-
-${
-	summary.changed.length > 0
-		? summary.changed
-				.map((k) => `- \`${k.key}\` (${k.old} → ${k.new} classes)`)
-				.join("\n")
-		: "*None*"
-}
-`.trim();
+const summary = getSummary(oldMappings, newMappings);
 
 console.log("Writing new mappings");
 await writeFile("mappings.json", JSON.stringify(newMappings, undefined, 2));
 
 if (!process.env.CI) {
-	console.warn("Not in CI environment, skipping commit and comment");
+	console.warn(yellow("Not in CI environment, skipping commit and comment"));
 	process.exit(0);
 }
 
@@ -93,8 +45,8 @@ if (hasChange) {
 		owner: "ryanccn",
 		repo: "discord-css-mappings",
 		commit_sha: newSHA,
-		body: markdownChangelog,
+		body: summary,
 	});
 } else {
-	console.warn("No changes happened, exiting cleanly");
+	console.warn(yellow("No changes happened, exiting cleanly"));
 }
