@@ -4,6 +4,8 @@ import { execa, $ } from "execa";
 
 import { getMappings, type MappingsFile } from "./mappings";
 
+console.log("Fetching mappings");
+
 const oldMappings = (await readFile("mappings.json", {
 	encoding: "utf-8",
 }).then(JSON.parse)) as MappingsFile;
@@ -11,6 +13,8 @@ const newMappings = await getMappings();
 
 const oldKeys = Object.keys(oldMappings);
 const newKeys = Object.keys(newMappings);
+
+console.log("Creating summary");
 
 const removedKeys = [...oldKeys].filter((k) => !newKeys.includes(k));
 const addedKeys = [...newKeys].filter((k) => !oldKeys.includes(k));
@@ -61,6 +65,7 @@ ${
 }
 `.trim();
 
+console.log("Writing new mappings");
 await writeFile("mappings.json", JSON.stringify(newMappings, undefined, 2));
 
 if (!process.env.CI) {
@@ -70,21 +75,26 @@ if (!process.env.CI) {
 
 const github = getOctokit(process.env.GITHUB_TOKEN!);
 
-const { stdout: oldSHA } = await execa("git", ["rev-parse", "HEAD"]);
-
 await $`git config --global user.name ${"github-actions[bot]"}`;
 await $`git config --global user.email ${"41898282+github-actions[bot]@users.noreply.github.com"}`;
 await $`git add ${"mappings.json"}`;
-await $`git commit -m ${"chore: update mappings"}`;
-await $`git push origin`;
 
-const { stdout: newSHA } = await execa("git", ["rev-parse", "HEAD"]);
+const hasChange = !!(await $`git status -s`).stdout;
 
-if (oldSHA !== newSHA) {
+if (hasChange) {
+	console.log("Pushing updates");
+	await $`git commit -m ${"chore: update mappings"}`;
+	await $`git push origin`;
+
+	const { stdout: newSHA } = await execa("git", ["rev-parse", "HEAD"]);
+
+	console.log("Creating summary comment");
 	await github.rest.repos.createCommitComment({
 		owner: "ryanccn",
 		repo: "discord-css-mappings",
 		commit_sha: newSHA,
 		body: markdownChangelog,
 	});
+} else {
+	console.warn("No changes happened, exiting cleanly");
 }
