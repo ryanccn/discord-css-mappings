@@ -18,8 +18,8 @@ jobs:
           node-version: 19
 
       - name: Install dependencies
-        run: pnpm install
+        run: yarn install --frozen-lockfile
       - name: Do everything
-        run: pnpm start
+        run: yarn start
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
