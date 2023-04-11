@@ -1,6 +1,6 @@
 import { readFile, writeFile } from "fs/promises";
 import { getOctokit } from "@actions/github";
-import { execa } from "execa";
+import { execa, $ } from "execa";
 
 import { getMappings, type MappingsFile } from "./mappings";
 
@@ -72,18 +72,11 @@ const github = getOctokit(process.env.GITHUB_TOKEN!);
 
 const { stdout: oldSHA } = await execa("git", ["rev-parse", "HEAD"]);
 
-await execa("git", ["add", "mappings.json"], {
-	stdout: "inherit",
-	stderr: "inherit",
-});
-await execa("git", ["commit", "-m", "chore: update mappings"], {
-	stdout: "inherit",
-	stderr: "inherit",
-});
-await execa("git", ["push", "origin"], {
-	stdout: "inherit",
-	stderr: "inherit",
-});
+await $`git config --global user.name 'github-actions[bot]'`;
+await $`git config --global user.email '41898282+github-actions[bot]@users.noreply.github.com'`;
+await $`git add mappings.json`;
+await $`git commit -m 'chore: update mappings'`;
+await $`git push origin`;
 
 const { stdout: newSHA } = await execa("git", ["rev-parse", "HEAD"]);
 
