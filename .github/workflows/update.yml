@@ -30,9 +30,14 @@ jobs:
           git commit -m 'chore: update mappings'
           git push origin main
           echo "sha=$(git rev-parse main)" >> $GITHUB_OUTPUT
+          if [ -n $(git status -s) ]
+            echo "changed=true" >> $GITHUB_OUTPUT
+          else
+            echo "changed=false" >> $GITHUB_OUTPUT
+          fi
       
       - uses: peter-evans/commit-comment@v2
-        if: steps.commit.outputs.changes_detected == 'true'
+        if: steps.commit.outputs.changed == 'true'
         with:
           sha: ${{ steps.commit.outputs.sha }}
           body: ${{ steps.mappings.outputs.commit-comments }}
