@@ -24,13 +24,16 @@ jobs:
         id: mappings
         run: deno run --allow-all mod.ts
 
-      - uses: stefanzweifel/git-auto-commit-action@v4
-        id: auto-commit
-        with:
-          commit_message: 'chore: update mappings'
+      - name: Commit and push
+        id: commit
+        run: |
+          git add mappings.json
+          git commit -m 'chore: update mappings'
+          git push origin main
+          echo "sha=$(git rev-parse main)" >> $GITHUB_OUTPUT
       
       - uses: peter-evans/commit-comment@v2
-        if: steps.auto-commit.outputs.changes_detected == 'true'
+        if: steps.commit.outputs.changes_detected == 'true'
         with:
-          sha: ${{ steps.auto-commit.outputs.commit_hash }}
+          sha: ${{ steps.commit.outputs.sha }}
           body: ${{ steps.mappings.outputs.commit-comments }}
