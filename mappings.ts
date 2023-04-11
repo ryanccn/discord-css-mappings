@@ -13,7 +13,7 @@ export const getMappings = async (): Promise<MappingsFile> => {
 	const html = await safeFetch("https://discord.com/app");
 	const originalCSSURL = new URL(
 		html.match(/<link rel="stylesheet" href="([/a-zA-Z0-9\.]+)"/)![1],
-		"https://discord.com/",
+		"https://discord.com/"
 	).toString();
 	const originalCSS = await safeFetch(originalCSSURL);
 

@@ -2,7 +2,7 @@ name: Update mappings
 
 on:
   schedule:
-    - cron: '0 */2 * * *'
+    - cron: "0 */2 * * *"
   workflow_dispatch:
 
 permissions:
@@ -13,31 +13,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - uses: denoland/setup-deno@v1
+      - uses: actions/setup-node@v3
         with:
-          deno-version: v1.x
+          node-version: 19
 
-      - name: Fetch mappings
-        id: mappings
-        run: deno run --allow-all mod.ts
-
-      - name: Commit and push
-        id: commit
-        run: |
-          git config --global user.name 'github-actions[bot]'
-          git config --global user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add mappings.json
-          git commit -m 'chore: update mappings'
-          git push origin main
-          echo "sha=$(git rev-parse main)" >> $GITHUB_OUTPUT
-          if [ -n $(git status -s) ]
-            echo "changed=true" >> $GITHUB_OUTPUT
-          else
-            echo "changed=false" >> $GITHUB_OUTPUT
-          fi
-      
-      - uses: peter-evans/commit-comment@v2
-        if: steps.commit.outputs.changed == 'true'
-        with:
-          sha: ${{ steps.commit.outputs.sha }}
-          body: ${{ steps.mappings.outputs.commit-comments }}
+      - name: Install dependencies
+        run: pnpm install
+      - name: Do everything
+        run: pnpm start
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
