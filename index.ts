@@ -5,6 +5,7 @@ import { execa, $ } from "execa";
 import { getMappings, type MappingsFile } from "./mappings";
 import { getSummary } from "./summary";
 
+import compare from "just-compare";
 import { yellow } from "kleur/colors";
 
 console.log("Fetching mappings");
@@ -17,24 +18,24 @@ const newMappings = await getMappings();
 console.log("Creating summary");
 const summary = getSummary(oldMappings, newMappings);
 
-console.log("Writing new mappings");
-await writeFile("mappings.json", JSON.stringify(newMappings, undefined, 2));
-
-if (!process.env.CI) {
-	console.warn(yellow("Not in CI environment, skipping commit and comment"));
-	process.exit(0);
-}
-
-const github = getOctokit(process.env.GITHUB_TOKEN!);
-
-await $`git config --global user.name ${"github-actions[bot]"}`;
-await $`git config --global user.email ${"41898282+github-actions[bot]@users.noreply.github.com"}`;
-await $`git add ${"mappings.json"}`;
-
-const hasChange = !!(await $`git status -s`).stdout;
+const hasChange = !compare(oldMappings, newMappings);
 
 if (hasChange) {
+	console.log("Writing new mappings");
+	await writeFile("mappings.json", JSON.stringify(newMappings, undefined, 2));
+
+	if (!process.env.CI) {
+		console.warn(yellow("Not in CI environment, skipping commit and comment"));
+		process.exit(0);
+	}
+
+	const github = getOctokit(process.env.GITHUB_TOKEN!);
+
 	console.log("Pushing updates");
+
+	await $`git config --global user.name ${"github-actions[bot]"}`;
+	await $`git config --global user.email ${"41898282+github-actions[bot]@users.noreply.github.com"}`;
+	await $`git add ${"mappings.json"}`;
 	await $`git commit -m ${"chore: update mappings"}`;
 	await $`git push origin`;
 

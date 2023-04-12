@@ -1,0 +1,27 @@
+{
+	"compilerOptions": {
+		"lib": [
+			"dom",
+			"dom.iterable",
+			"esnext",
+			"esnext.array",
+			"esnext.asynciterable",
+			"esnext.symbol"
+		],
+		"module": "esnext",
+		"target": "esnext",
+		"moduleResolution": "node",
+		"jsx": "preserve",
+		"strict": true,
+		"esModuleInterop": true,
+		"allowSyntheticDefaultImports": true,
+		"noEmit": true,
+
+		"baseUrl": ".",
+		"paths": {
+			"~/*": ["*"]
+		}
+	},
+	"include": ["**/*.ts"],
+	"exclude": ["**/node_modules/*"]
+}
