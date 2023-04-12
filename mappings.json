@@ -1109,8 +1109,8 @@
     "header-1N6Qea",
     "header-kxb7f7",
     "header-3CTcuC",
-    "header-2hQs-p",
     "header-2hjw1J",
+    "header-2hQs-p",
     "header-2cF-SF",
     "header-3DVR9S",
     "header-16U6Vf",
@@ -1446,7 +1446,6 @@
     "closeIcon-14ZT1N",
     "closeIcon-DN7w1s",
     "closeIcon-1DwBz5",
-    "closeIcon-zvpl4L",
     "closeIcon-1bRhE8",
     "closeIcon-2IriN1",
     "closeIcon-3UPQkz",
@@ -1956,6 +1955,7 @@
     "checkbox-2fvfgP",
     "checkbox-3bczkC",
     "checkbox-31U2Yo",
+    "checkbox-3gMoCV",
     "checkbox-1O3Aey",
     "checkbox-1jBQ-g",
     "checkbox-K3upcG",
@@ -3327,6 +3327,7 @@
     "visible-CwPfRb",
     "visible-3f3yOU",
     "visible-1Hx3V0",
+    "visible-2tkRo_",
     "visible-2yTnyW",
     "visible-njB9UD",
     "visible-3bImi7",
@@ -3771,7 +3772,6 @@
     "divider-1bJsnZ",
     "divider-2uQj9B",
     "divider-2rZFJK",
-    "divider-34kD7l",
     "divider-1JOVFd",
     "divider-3NY7PF",
     "divider-2BCfFf",
@@ -4355,7 +4355,7 @@
     "sectionTitle-36PWt2",
     "sectionTitle-1T_AdY",
     "sectionTitle-26b5ZR",
-    "sectionTitle-yIWX6n",
+    "sectionTitle-Rn3QY-",
     "sectionTitle-353qVZ",
     "sectionTitle-2SlIi4",
     "sectionTitle-34s8y3",
@@ -4836,6 +4836,7 @@
     "sparkles-1QHMVw",
     "sparkles-A95Yt-",
     "sparkles-1yqog1",
+    "sparkles-2lzfZF",
     "sparkles-2G5lq5",
     "sparkles-yuqJLL",
     "sparkles-1nSL9S",
@@ -4867,7 +4868,6 @@
     "bar-2vQXIi",
     "bar-2MWHzg",
     "bar-gOAzSi",
-    "bar-ADDMV5",
     "bar-H6j3_Q",
     "bar-2eAyLE",
     "bar-wDIGjg",
@@ -5737,7 +5737,6 @@
     "closeButton-2bhPVq",
     "closeButton-mGpA26",
     "closeButton-3fKh0P",
-    "closeButton-3YgEub",
     "closeButton-3IEry2",
     "closeButton-3xGz7P",
     "closeButton-3CiW2j",
@@ -9174,13 +9173,6 @@
   "avatarHoverTarget": [
     "avatarHoverTarget-1zzfRL"
   ],
-  "bannerHidden": [
-    "bannerHidden-1yMbQP"
-  ],
-  "bannerVisible": [
-    "bannerVisible-3k6Iy-",
-    "bannerVisible-Vkyg1I"
-  ],
   "dismissButton": [
     "dismissButton-1LXix0",
     "dismissButton-3jbLsz",
@@ -9830,6 +9822,12 @@
   "qrCodeOverlay": [
     "qrCodeOverlay-hYMDmA",
     "qrCodeOverlay-2bLtKl"
+  ],
+  "size-40": [
+    "size-40-3P6Y8f"
+  ],
+  "size-60": [
+    "size-60-3oW51p"
   ],
   "qrCodeContainer": [
     "qrCodeContainer-15KLwa",
@@ -10774,7 +10772,7 @@
   "rowLabel": [
     "rowLabel-2HDfDq",
     "rowLabel-34phVs",
-    "rowLabel-rxF2X0",
+    "rowLabel-vgbSyG",
     "rowLabel-3G5iEA",
     "rowLabel-3hSits"
   ],
@@ -11027,12 +11025,61 @@
     "loadingWrapper-CHZSgt",
     "loadingWrapper-20mJsc"
   ],
-  "shaker": [
-    "shaker-bevRrZ"
+  "awaitingAuthenticationStep": [
+    "awaitingAuthenticationStep-RJOeut"
+  ],
+  "awaitingWrapper": [
+    "awaitingWrapper-1eIzMr"
+  ],
+  "headerBackground": [
+    "headerBackground-131uxy",
+    "headerBackground-lF94HT"
+  ],
+  "tier2HeaderBackground": [
+    "tier2HeaderBackground-2XINxm"
+  ],
+  "tier2HeaderBackgroundWinterTheme": [
+    "tier2HeaderBackgroundWinterTheme-Mqc76o"
+  ],
+  "snow": [
+    "snow-1Y_nvA",
+    "snow-_q6DgL"
+  ],
+  "headerTop": [
+    "headerTop-1LeawG",
+    "headerTop-1PNKck"
+  ],
+  "headerIcon": [
+    "headerIcon-1ACCh0",
+    "headerIcon-L9dUKq",
+    "headerIcon-4CEo5y",
+    "headerIcon-2Gk2OH",
+    "headerIcon-3Q7cOC",
+    "headerIcon-2ra-HY",
+    "headerIcon-coTwxK",
+    "headerIcon-1_zzn9",
+    "headerIcon-2DFmfg",
+    "headerIcon-1eBuC0",
+    "headerIcon-2RT_qX",
+    "headerIcon--s7SDK",
+    "headerIcon-1zX9OZ"
+  ],
+  "nonTier2": [
+    "nonTier2-1CwCWf"
+  ],
+  "trialBadgeContainer": [
+    "trialBadgeContainer-3XZOs5"
+  ],
+  "trialOfferText": [
+    "trialOfferText-3CadVA",
+    "trialOfferText-qd9hSp"
+  ],
+  "trialBadgeSparkles": [
+    "trialBadgeSparkles-IbG57b"
   ],
   "modalHeader": [
-    "modalHeader-2Rmdrh",
     "modalHeader-gQTY3L",
+    "modalHeader-2Rmdrh",
     "modalHeader-OnIkEx",
     "modalHeader-3X0A4K",
     "modalHeader-1nzW1E",
@@ -11053,8 +11100,15 @@
     "modalHeader-1aZDDC"
   ],
   "headerAnimation": [
-    "headerAnimation-1dzTLu",
-    "headerAnimation-3DVb6i"
+    "headerAnimation-3DVb6i",
+    "headerAnimation-1dzTLu"
+  ],
+  "seasonalGiftBoxHeaderIcon": [
+    "seasonalGiftBoxHeaderIcon-3IQVSR",
+    "seasonalGiftBoxHeaderIcon-bmDtS5"
+  ],
+  "shaker": [
+    "shaker-bevRrZ"
   ],
   "stepBody": [
     "stepBody-19OtlL",
@@ -11118,62 +11172,6 @@
   "renewalInvoiceDate": [
     "renewalInvoiceDate-1qMnnA",
     "renewalInvoiceDate-8x16Mj"
-  ],
-  "awaitingAuthenticationStep": [
-    "awaitingAuthenticationStep-RJOeut"
-  ],
-  "awaitingWrapper": [
-    "awaitingWrapper-1eIzMr"
-  ],
-  "headerBackground": [
-    "headerBackground-131uxy",
-    "headerBackground-lF94HT"
-  ],
-  "tier2HeaderBackground": [
-    "tier2HeaderBackground-2XINxm"
-  ],
-  "tier2HeaderBackgroundWinterTheme": [
-    "tier2HeaderBackgroundWinterTheme-Mqc76o"
-  ],
-  "snow": [
-    "snow-1Y_nvA",
-    "snow-_q6DgL"
-  ],
-  "headerTop": [
-    "headerTop-1LeawG",
-    "headerTop-1PNKck"
-  ],
-  "headerIcon": [
-    "headerIcon-1ACCh0",
-    "headerIcon-L9dUKq",
-    "headerIcon-4CEo5y",
-    "headerIcon-2Gk2OH",
-    "headerIcon-3Q7cOC",
-    "headerIcon-2ra-HY",
-    "headerIcon-coTwxK",
-    "headerIcon-1_zzn9",
-    "headerIcon-2DFmfg",
-    "headerIcon-1eBuC0",
-    "headerIcon-2RT_qX",
-    "headerIcon--s7SDK",
-    "headerIcon-1zX9OZ"
-  ],
-  "nonTier2": [
-    "nonTier2-1CwCWf"
-  ],
-  "trialBadgeContainer": [
-    "trialBadgeContainer-3XZOs5"
-  ],
-  "trialOfferText": [
-    "trialOfferText-3CadVA",
-    "trialOfferText-qd9hSp"
-  ],
-  "trialBadgeSparkles": [
-    "trialBadgeSparkles-IbG57b"
-  ],
-  "seasonalGiftBoxHeaderIcon": [
-    "seasonalGiftBoxHeaderIcon-3IQVSR",
-    "seasonalGiftBoxHeaderIcon-bmDtS5"
   ],
   "copyInput": [
     "copyInput-3AbKWB",
@@ -13606,7 +13604,7 @@
     "channelIcon-1862w-",
     "channelIcon-3Oew8h",
     "channelIcon-2xYUxY",
-    "channelIcon-3_YeIZ",
+    "channelIcon-1irWaQ",
     "channelIcon-lXjvRB",
     "channelIcon-ipljGT",
     "channelIcon-Y7myvd",
@@ -13929,7 +13927,7 @@
     "searchBox-3wTyE4",
     "searchBox-3IjAC1",
     "searchBox-31Zv9h",
-    "searchBox-2FUX5z",
+    "searchBox-2dOriW",
     "searchBox-2fu6EP"
   ],
   "searchBoxInput": [
@@ -13984,7 +13982,7 @@
     "searchBar-3TnChZ",
     "searchBar-1UNSCg",
     "searchBar-1RS23m",
-    "searchBar-18SM0r",
+    "searchBar-3PNM5n",
     "searchBar-30dqPB",
     "searchBar-3joS_I",
     "searchBar-2p5MMw",
@@ -15445,6 +15443,9 @@
     "burstTooltipButtons-QZwht5",
     "burstTooltipButtons-1C7sPB"
   ],
+  "blankButton": [
+    "blankButton-1WGLSU"
+  ],
   "reactions": [
     "reactions-3HFE-S",
     "reactions-3ryImn",
@@ -15995,8 +15996,7 @@
     "spacingTop-12U95P"
   ],
   "clydeIcon": [
-    "clydeIcon-1_iyHk",
-    "clydeIcon-2peSXA"
+    "clydeIcon-1_iyHk"
   ],
   "subheading": [
     "subheading-3e9zUi",
@@ -17506,12 +17506,6 @@
   "commandHook": [
     "commandHook-1u8ZtQ"
   ],
-  "learnMore": [
-    "learnMore-1FADOC",
-    "learnMore-15guln",
-    "learnMore-15eef4",
-    "learnMore-1HwkOB"
-  ],
   "clipContainer": [
     "clipContainer-31nYlH"
   ],
@@ -17839,6 +17833,11 @@
   "ephemeralAccessories": [
     "ephemeralAccessories-bpsPBL"
   ],
+  "learnMore": [
+    "learnMore-15guln",
+    "learnMore-15eef4",
+    "learnMore-1HwkOB"
+  ],
   "burstTooltip": [
     "burstTooltip-1WaZEx"
   ],
@@ -17949,7 +17948,7 @@
   ],
   "rowHeight": [
     "rowHeight-352rou",
-    "rowHeight-3z5hIV",
+    "rowHeight-2mNW5o",
     "rowHeight-2BK37t",
     "rowHeight-2aENfh"
   ],
@@ -18108,7 +18107,6 @@
     "scrollerInner-1kQEqs",
     "scrollerInner-3E75Lj",
     "scrollerInner-22scD4",
-    "scrollerInner-137WCP",
     "scrollerInner-1ja-9K"
   ],
   "scrollerSpacer": [
@@ -20506,6 +20504,9 @@
   "communityIcon": [
     "communityIcon-28UI1f"
   ],
+  "bannerVisible": [
+    "bannerVisible-Vkyg1I"
+  ],
   "hasBanner": [
     "hasBanner-2IrYih"
   ],
@@ -20757,7 +20758,7 @@
   ],
   "searchContainer": [
     "searchContainer-15GBF0",
-    "searchContainer-3slruV",
+    "searchContainer-xG1cQp",
     "searchContainer-23hFke",
     "searchContainer-2kJ46v",
     "searchContainer-u-1vUp",
@@ -20844,6 +20845,9 @@
   "messageRequestCoachmark": [
     "messageRequestCoachmark-31Q9AL"
   ],
+  "qrCodeButtonContent": [
+    "qrCodeButtonContent-3kfoKB"
+  ],
   "counter": [
     "counter-2iDLRj"
   ],
@@ -20915,9 +20919,6 @@
   ],
   "linkingBannerUpper": [
     "linkingBannerUpper-g_ytMn"
-  ],
-  "qrCodeButtonContent": [
-    "qrCodeButtonContent-2_cqGl"
   ],
   "step": [
     "step-3WCaE1",
@@ -22246,7 +22247,7 @@
   ],
   "rowContainer": [
     "rowContainer-jDvyA4",
-    "rowContainer-1tr2GC",
+    "rowContainer-29FQQy",
     "rowContainer-3t7486",
     "rowContainer-ZmIuNM",
     "rowContainer-3kH7cU"
@@ -23340,9 +23341,6 @@
   ],
   "perGuildProfilesImage": [
     "perGuildProfilesImage-1wAnCv"
-  ],
-  "videoBackgroundImage": [
-    "videoBackgroundImage-VoMScu"
   ],
   "clientThemesCard": [
     "clientThemesCard-sSVmmt"
@@ -24976,60 +24974,60 @@
     "editChannel-3Y8hih"
   ],
   "resultsList": [
-    "resultsList-2Bp-2_",
+    "resultsList-3yWCAG",
     "resultsList-2tyWrf"
   ],
   "resultsListParent": [
-    "resultsListParent-39cvai",
+    "resultsListParent-2qzprO",
     "resultsListParent-2qJhiE"
   ],
   "selectableSearchRow": [
-    "selectableSearchRow-TysAOw",
+    "selectableSearchRow-2SO4tF",
     "selectableSearchRow-2PRhyK"
   ],
   "sectionHeight": [
-    "sectionHeight-pHN6w6",
+    "sectionHeight-Vb3J7v",
     "sectionHeight-OP5-o9"
   ],
   "roleLabel": [
-    "roleLabel-38YTUn",
+    "roleLabel-1LvGo5",
     "roleLabel-34hvkV"
   ],
   "roleTagContainer": [
-    "roleTagContainer-uC5QuB",
+    "roleTagContainer-1lUfQS",
     "roleTagContainer-3d-6dy"
   ],
   "roleTag": [
-    "roleTag-14B9C7",
+    "roleTag-PosfJk",
     "roleTag-8dogTd",
     "roleTag-2bt6xm"
   ],
   "roleTagIcon": [
-    "roleTagIcon-3vJW-Z",
+    "roleTagIcon-3i9Pnn",
     "roleTagIcon-20YBj4"
   ],
   "roleTagLabel": [
-    "roleTagLabel-jcYzSU",
+    "roleTagLabel-1Ppp7L",
     "roleTagLabel-3Q0mla"
   ],
   "channelLabel": [
-    "channelLabel-237KIv",
+    "channelLabel-2yRV3d",
     "channelLabel-2WUep_"
   ],
   "channelRowLabel": [
-    "channelRowLabel-2yYGtY",
+    "channelRowLabel-Za3n14",
     "channelRowLabel-3Y_t3O"
   ],
   "hasParent": [
-    "hasParent-1BBbDQ",
+    "hasParent-2MXv0u",
     "hasParent-1R7bFr"
   ],
   "noIndent": [
-    "noIndent-mJ9w64",
+    "noIndent-3lqRtD",
     "noIndent-2MXAuB"
   ],
   "sectionFooter": [
-    "sectionFooter-2srQpO"
+    "sectionFooter-usNZkG"
   ],
   "exemptionHint": [
     "exemptionHint-3G8JUi"
@@ -26359,9 +26357,6 @@
   ],
   "channelBrowserOuter": [
     "channelBrowserOuter-1WBNF7"
-  ],
-  "channelBrowserInner": [
-    "channelBrowserInner-2r93Fu"
   ],
   "availabilityIndicator": [
     "availabilityIndicator-KldT0d",
