@@ -458,6 +458,9 @@
   "activitiesArt": [
     "activitiesArt-1_7xUs"
   ],
+  "activitiesBirthdayIcon": [
+    "activitiesBirthdayIcon-1Ou-De"
+  ],
   "activitiesContainer": [
     "activitiesContainer-1UdCaA"
   ],
@@ -2731,6 +2734,9 @@
   "birthday": [
     "birthday-24I0ff"
   ],
+  "birthdayBackgroundImage": [
+    "birthdayBackgroundImage-3GLYYZ"
+  ],
   "birthdayBalloonsContainer": [
     "birthdayBalloonsContainer-2_cxx4"
   ],
@@ -2745,6 +2751,9 @@
   ],
   "birthdayExplanationWrapper": [
     "birthdayExplanationWrapper-c5wg5T"
+  ],
+  "birthdayReferral": [
+    "birthdayReferral-2y7WVC"
   ],
   "black": [
     "black-11MaxJ"
@@ -6371,6 +6380,9 @@
   ],
   "confirmationBenefits": [
     "confirmationBenefits-bD8u_0"
+  ],
+  "confirmationBirthdayBody": [
+    "confirmationBirthdayBody-2z3BzN"
   ],
   "confirmationBody": [
     "confirmationBody-3ugdpJ",
@@ -11859,6 +11871,7 @@
   ],
   "fill": [
     "fill-297bdf",
+    "fill-SSGXnX",
     "fill-XhzEYr"
   ],
   "filled": [
@@ -16768,7 +16781,8 @@
     "innerContainer-jCNd69"
   ],
   "innerContent": [
-    "innerContent-1e3GU0"
+    "innerContent-1e3GU0",
+    "innerContent-2SPKt5"
   ],
   "innerContentWrapper": [
     "innerContentWrapper-yFPvBb"
@@ -29635,7 +29649,6 @@
     "tag-3T_qsl",
     "tag-3Upstw",
     "tag-3baoyj",
-    "tag-3x6mRY",
     "tag-4fIUbr",
     "tag-8YVSL5",
     "tag-Pxnlt9",
@@ -29947,6 +29960,7 @@
     "text-2OWQj6",
     "text-2R-UVj",
     "text-2bYgPB",
+    "text-2e4Mnx",
     "text-2fuaDl",
     "text-2guAFQ",
     "text-2iOgZW",
@@ -31253,7 +31267,6 @@
   ],
   "titleIcon": [
     "titleIcon-2Qyhm1",
-    "titleIcon-aV15s-",
     "titleIcon-atrbZ_"
   ],
   "titleInput": [
