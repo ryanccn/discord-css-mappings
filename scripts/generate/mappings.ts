@@ -31,5 +31,12 @@ export const getMappings = async (): Promise<MappingsFile> => {
 		}
 	});
 
-	return Object.fromEntries(classNameMap);
+	for (const key of classNameMap.keys()) {
+		classNameMap.get(key)!.sort();
+	}
+
+	const sortedMap = new Map(
+		[...classNameMap].sort((a, b) => (a[0] > b[0] ? 1 : -1))
+	);
+	return Object.fromEntries(sortedMap);
 };
