@@ -162,6 +162,9 @@
   "achievementTextContainer": [
     "achievementTextContainer-3hZEk-"
   ],
+  "acked": [
+    "acked-2bdQ0D"
+  ],
   "acknowledgementCheckbox": [
     "acknowledgementCheckbox-3lpxA9"
   ],
@@ -460,6 +463,9 @@
   ],
   "activitiesBirthdayIcon": [
     "activitiesBirthdayIcon-1Ou-De"
+  ],
+  "activitiesBirthdayIconLight": [
+    "activitiesBirthdayIconLight-1QhKyv"
   ],
   "activitiesContainer": [
     "activitiesContainer-1UdCaA"
@@ -2324,10 +2330,12 @@
     "badge-3y_4Wj",
     "badge-FSo_xX",
     "badge-g0vAzc",
-    "badge-jJsTpx"
+    "badge-jJsTpx",
+    "badge-xAeZUn"
   ],
   "badgeContainer": [
-    "badgeContainer-2a1nPp"
+    "badgeContainer-2a1nPp",
+    "badgeContainer-snqqRW"
   ],
   "badgeIcon": [
     "badgeIcon-COqTDw"
@@ -3947,7 +3955,6 @@
     "buttons-1G-J-Z",
     "buttons-1TBWBN",
     "buttons-1VuuwQ",
-    "buttons-1pQ1nJ",
     "buttons-1zgM_T",
     "buttons-228G5H",
     "buttons-2im8A3",
@@ -3959,6 +3966,7 @@
     "buttons-3snlAO",
     "buttons-BK5gED",
     "buttons-JBedyJ",
+    "buttons-NkBebu",
     "buttons-SCXZU-",
     "buttons-TETtoG",
     "buttons-cyJBPx",
@@ -4133,6 +4141,7 @@
     "card-1LSSlz",
     "card-1OD384",
     "card-1j9yy6",
+    "card-1kD5uM",
     "card-1rhKXq",
     "card-2AAZ47",
     "card-2ART2V",
@@ -5522,6 +5531,7 @@
     "clickable-3-HMh_",
     "clickable-31pE3P",
     "clickable-32Okxi",
+    "clickable-3CNIeg",
     "clickable-3Nz8C0",
     "clickable-3Po8Th",
     "clickable-3VeFBy",
@@ -7812,9 +7822,6 @@
   ],
   "coverImageWrapper": [
     "coverImageWrapper-2wx5q1"
-  ],
-  "coverPhoto": [
-    "coverPhoto-EFI1sc"
   ],
   "coverTitle": [
     "coverTitle-3P7PX4"
@@ -11432,6 +11439,9 @@
   "expirationNotice": [
     "expirationNotice-2bcFcq"
   ],
+  "expired": [
+    "expired-39qjjs"
+  ],
   "expiredIcon": [
     "expiredIcon-35bVY-"
   ],
@@ -12275,7 +12285,6 @@
     "footer-3lxcwn",
     "footer-3u6fkK",
     "footer-3vSvuV",
-    "footer-3w5i41",
     "footer-3xS9Fa",
     "footer-5ji8u1",
     "footer-6sFCbA",
@@ -13173,6 +13182,12 @@
   "gradientUpsellWrapperWithBottomMargin": [
     "gradientUpsellWrapperWithBottomMargin-26dKvZ"
   ],
+  "gradientWrapperTier0": [
+    "gradientWrapperTier0-j2mpky"
+  ],
+  "gradientWrapperTier2": [
+    "gradientWrapperTier2-mZ4Kyp"
+  ],
   "grandfatheredIcon": [
     "grandfatheredIcon-DESYpl"
   ],
@@ -14061,7 +14076,6 @@
     "header-1fRniV",
     "header-1ffhsl",
     "header-1g1eBX",
-    "header-1hRBe0",
     "header-1iEhSH",
     "header-1iJjq1",
     "header-1jmaW9",
@@ -15723,6 +15737,7 @@
     "icon-3Ck3WO",
     "icon-3DOwcX",
     "icon-3DnmvF",
+    "icon-3Ez8XO",
     "icon-3F2JOt",
     "icon-3FRAVF",
     "icon-3FU6Ir",
@@ -16236,6 +16251,9 @@
   ],
   "idPromoBanner": [
     "idPromoBanner-6C-EJ8"
+  ],
+  "idRow": [
+    "idRow-3iavmQ"
   ],
   "ideal": [
     "ideal-1s_s96"
@@ -16810,6 +16828,7 @@
     "input-125oad",
     "input-16GZV5",
     "input-1bmui3",
+    "input-1ccLrw",
     "input-1nrc5P",
     "input-1y_Uys",
     "input-23Cvxp",
@@ -16906,6 +16925,9 @@
   ],
   "inputReadonly": [
     "inputReadonly-2iSlw6"
+  ],
+  "inputRow": [
+    "inputRow-3JOFkn"
   ],
   "inputRuleExemptionsContainer": [
     "inputRuleExemptionsContainer-3fEXxJ"
@@ -17363,6 +17385,9 @@
   ],
   "isHeader": [
     "isHeader-2bbX-L"
+  ],
+  "isLoading": [
+    "isLoading-22BZDA"
   ],
   "isMobile": [
     "isMobile-1cN0Lt",
@@ -18581,6 +18606,7 @@
     "loadingCardWithIncreasedActivity-1_LMT7"
   ],
   "loadingContainer": [
+    "loadingContainer-1Wdn_R",
     "loadingContainer-2dRvxT",
     "loadingContainer-2za9hL",
     "loadingContainer-3tMSLQ"
@@ -20453,6 +20479,9 @@
   "namePlaceholder": [
     "namePlaceholder-2NUk6m"
   ],
+  "nameRow": [
+    "nameRow-2HYZcG"
+  ],
   "nameTag": [
     "nameTag-1UsB6_",
     "nameTag-35jqbZ",
@@ -20866,6 +20895,9 @@
   ],
   "noListContainer": [
     "noListContainer-1Pa1Gf"
+  ],
+  "noMargin": [
+    "noMargin-14VdLo"
   ],
   "noPadding": [
     "noPadding-153MkT"
@@ -21843,7 +21875,8 @@
     "panelButtonContainer-zIflxz"
   ],
   "panelInner": [
-    "panelInner-1JSsgv"
+    "panelInner-1JSsgv",
+    "panelInner-4hOCot"
   ],
   "panelSubtextContainer": [
     "panelSubtextContainer-7hU_Cm"
@@ -24428,10 +24461,6 @@
     "reactionTooltipText-3OhRFp",
     "reactionTooltipText-iAWHhX"
   ],
-  "reactionWithUpgrade": [
-    "reactionWithUpgrade-3IEWzB",
-    "reactionWithUpgrade-a4vXZv"
-  ],
   "reactions": [
     "reactions-1u0DR-",
     "reactions-2lQAGh",
@@ -24555,6 +24584,9 @@
   ],
   "redeemTooltipContent": [
     "redeemTooltipContent-1YMb6G"
+  ],
+  "redeemed": [
+    "redeemed-2TiOEp"
   ],
   "redesign-heading-18-bold": [
     "redesign-heading-18-bold-2eR0EX",
@@ -25533,6 +25565,7 @@
     "row-3J8X6C",
     "row-3NCCgF",
     "row-3Z86-N",
+    "row-3aCltB",
     "row-3ahiFm",
     "row-3ekYm1",
     "row-3ioI6R",
@@ -26301,6 +26334,7 @@
     "section-3Et6MX",
     "section-3G9aLW",
     "section-3PvCGN",
+    "section-3XG8rk",
     "section-3atBfu",
     "section-3pkfRq",
     "section-3xOOsh",
@@ -31835,6 +31869,7 @@
   ],
   "trashIcon": [
     "trashIcon-3Qk_yu",
+    "trashIcon-WUC3iG",
     "trashIcon-cDoyGA"
   ],
   "tree": [
@@ -32357,14 +32392,6 @@
   ],
   "updatesHeader": [
     "updatesHeader-MkzgKb"
-  ],
-  "upgradeReactionContainer": [
-    "upgradeReactionContainer--AiVjD",
-    "upgradeReactionContainer-2kRSFV"
-  ],
-  "upgradeToSuperReactionButton": [
-    "upgradeToSuperReactionButton-1TeI2p",
-    "upgradeToSuperReactionButton-1yIBjP"
   ],
   "upload": [
     "upload-2ZF-qH",
