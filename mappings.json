@@ -4093,6 +4093,9 @@
   "cancelLink": [
     "cancelLink-3jRd0a"
   ],
+  "cancelModalBanner": [
+    "cancelModalBanner-3sqsYA"
+  ],
   "canceled": [
     "canceled-1xe5To",
     "canceled-3FVVhC"
@@ -23683,6 +23686,9 @@
     "profileCard-2gVmvm",
     "profileCard-3LwxP_"
   ],
+  "profileCardTier1": [
+    "profileCardTier1-2mNP0P"
+  ],
   "profileCardUsernameRow": [
     "profileCardUsernameRow-1bb6fi"
   ],
@@ -23700,6 +23706,9 @@
   ],
   "profileCustomizationSection": [
     "profileCustomizationSection-53kreU"
+  ],
+  "profileInner": [
+    "profileInner-oJaQGH"
   ],
   "profileNameTag": [
     "profileNameTag-2T5lOU"
