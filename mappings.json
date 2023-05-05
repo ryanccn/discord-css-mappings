@@ -178,6 +178,7 @@
     "acronym-2zrAHN",
     "acronym-3TOxJl",
     "acronym-3Z5KA3",
+    "acronym-3eWTRs",
     "acronym-3tmQna",
     "acronym-lXtqi2",
     "acronym-vuwTO7"
@@ -1445,6 +1446,7 @@
     "asianCompactTimeStamp-1yM0Ly"
   ],
   "asset": [
+    "asset-2yKVdV",
     "asset-ISsyAX"
   ],
   "assetWrapper": [
@@ -2198,6 +2200,7 @@
   ],
   "background": [
     "background-12kWdX",
+    "background-1Nvozn",
     "background-1O4oOj",
     "background-1Rr0yL",
     "background-1VboA7",
@@ -2226,6 +2229,9 @@
   "backgroundAccent": [
     "backgroundAccent-1MMH1o"
   ],
+  "backgroundAvatars": [
+    "backgroundAvatars-1Yv3FM"
+  ],
   "backgroundContainer": [
     "backgroundContainer-gUNEZU"
   ],
@@ -2248,7 +2254,8 @@
     "backgroundIconOptionIcon-1Hkxs4"
   ],
   "backgroundImage": [
-    "backgroundImage-1Ttxcq"
+    "backgroundImage-1Ttxcq",
+    "backgroundImage-2ETsZN"
   ],
   "backgroundImageOption": [
     "backgroundImageOption-1LRgQ8"
@@ -2294,6 +2301,9 @@
   ],
   "backgroundOptionsSmall": [
     "backgroundOptionsSmall-25A75j"
+  ],
+  "backgroundRays": [
+    "backgroundRays-CVBd6n"
   ],
   "backgroundRed": [
     "backgroundRed-3TvpLD"
@@ -2423,6 +2433,7 @@
   "banner": [
     "banner-14adSW",
     "banner-1AB1xq",
+    "banner-1BN2Ox",
     "banner-1YaD3N",
     "banner-25RWjr",
     "banner-2VHeQm",
@@ -2684,15 +2695,18 @@
     "betaTag-1--91P",
     "betaTag-1SPc-F",
     "betaTag-1UqCTm",
+    "betaTag-1dgoSh",
     "betaTag-2CH9B0",
     "betaTag-3EG9SR",
     "betaTag-3FFAB4",
     "betaTag-3I48C3",
     "betaTag-3QG2yr",
     "betaTag-3eRHW2",
-    "betaTag-V7479T"
+    "betaTag-V7479T",
+    "betaTag-rsyoGT"
   ],
   "betaTagContainer": [
+    "betaTagContainer-16_-HN",
     "betaTagContainer-1JbzxP",
     "betaTagContainer-1ZAPyL"
   ],
@@ -2742,6 +2756,9 @@
   "birthday": [
     "birthday-24I0ff"
   ],
+  "birthdayBackground": [
+    "birthdayBackground-3W7GAK"
+  ],
   "birthdayBackgroundImage": [
     "birthdayBackgroundImage-3GLYYZ"
   ],
@@ -2759,6 +2776,9 @@
   ],
   "birthdayExplanationWrapper": [
     "birthdayExplanationWrapper-c5wg5T"
+  ],
+  "birthdayFeatureBorder": [
+    "birthdayFeatureBorder-24qmMm"
   ],
   "birthdayReferral": [
     "birthdayReferral-2y7WVC"
@@ -4109,6 +4129,7 @@
     "cannon-2TUmxT",
     "cannon-3-FQ-q",
     "cannon-39lv5F",
+    "cannon-3ePveM",
     "cannon-3osMVT",
     "cannon-739yNI",
     "cannon-c47sK_",
@@ -4661,7 +4682,7 @@
     "channelActions-ZK9tbf"
   ],
   "channelActivitiesText": [
-    "channelActivitiesText-1pk1MK"
+    "channelActivitiesText-2e1Xel"
   ],
   "channelActivityContainer": [
     "channelActivityContainer-1_5CRq"
@@ -4780,7 +4801,7 @@
   ],
   "channelInfo": [
     "channelInfo-13jdV-",
-    "channelInfo-2MhLoR",
+    "channelInfo-1XOTfG",
     "channelInfo-3OClPe",
     "channelInfo-3jN1ay",
     "channelInfo-3xAwr2",
@@ -4801,7 +4822,7 @@
     "channelItem-3LVfOf"
   ],
   "channelItemActivities": [
-    "channelItemActivities-1rwhYb"
+    "channelItemActivities-1uEcBe"
   ],
   "channelLabel": [
     "channelLabel-2WUep_",
@@ -4829,13 +4850,13 @@
     "channelName-1zbIoT",
     "channelName-2-Iv2E",
     "channelName-27ubOY",
+    "channelName-2E128x",
     "channelName-2GMEH5",
     "channelName-2Lr3Jq",
     "channelName-2P3bqL",
     "channelName-2TeYVY",
     "channelName-2aDQQF",
     "channelName-2hRlxz",
-    "channelName-2oq00k",
     "channelName-2vGBw1",
     "channelName-39pd3z",
     "channelName-3APnhp",
@@ -5657,6 +5678,7 @@
     "close-25zl0f",
     "close-2T9zgo",
     "close-2Vhpnc",
+    "close-2eZKHH",
     "close-2hitRw",
     "close-2oihA7",
     "close-3-lUJg",
@@ -5820,6 +5842,7 @@
     "closeIcon-2shGNU",
     "closeIcon-2zacaO",
     "closeIcon-3FAwIm",
+    "closeIcon-3IEYkH",
     "closeIcon-3QPUAe",
     "closeIcon-3UPQkz",
     "closeIcon-3aZ-RA",
@@ -6713,6 +6736,7 @@
     "container-1BRLje",
     "container-1Bj0eq",
     "container-1BpR8-",
+    "container-1BtQJ-",
     "container-1DGXZ_",
     "container-1DQLOU",
     "container-1ERits",
@@ -6953,6 +6977,7 @@
     "container-3YcgdM",
     "container-3YqRWJ",
     "container-3Zef_K",
+    "container-3_nsdX",
     "container-3a5mk-",
     "container-3aTfKk",
     "container-3amHoZ",
@@ -7065,6 +7090,7 @@
     "container-iziRin",
     "container-jV-A82",
     "container-lJuBHq",
+    "container-lpf9y1",
     "container-lqPArA",
     "container-m0iv4O",
     "container-m6s_35",
@@ -7305,6 +7331,7 @@
     "content-3GTswX",
     "content-3HXdeP",
     "content-3HmG6h",
+    "content-3KMaGU",
     "content-3N5BG9",
     "content-3Qejwl",
     "content-3S4fpL",
@@ -7317,6 +7344,7 @@
     "content-3aT_vH",
     "content-3cDrTy",
     "content-3dHeLs",
+    "content-3dMoJ7",
     "content-3h-8FD",
     "content-3hLy03",
     "content-3l1Kim",
@@ -7373,6 +7401,12 @@
   ],
   "contentBase": [
     "contentBase-3iXUX9"
+  ],
+  "contentBullet": [
+    "contentBullet-2L997-"
+  ],
+  "contentBullets": [
+    "contentBullets-iuhqMi"
   ],
   "contentCircle": [
     "contentCircle-15IFyT"
@@ -7544,9 +7578,11 @@
     "contentScroll-2J5gEk"
   ],
   "contentText": [
-    "contentText-2cejPh"
+    "contentText-2cejPh",
+    "contentText-3_nj5h"
   ],
   "contentTitle": [
+    "contentTitle-2UKSvW",
     "contentTitle-3CylD3"
   ],
   "contentTransitionWrap": [
@@ -7678,6 +7714,7 @@
   "copy": [
     "copy-1WUJ5T",
     "copy-3KuMw6",
+    "copy-TehDBX",
     "copy-eZuWVD"
   ],
   "copyButton": [
@@ -8595,6 +8632,7 @@
     "description-2uejEu",
     "description-2vpQCW",
     "description-2wZk_4",
+    "description-2yWcHP",
     "description-31Folm",
     "description-32KiBt",
     "description-36Il0e",
@@ -9277,6 +9315,7 @@
     "divider-1mBcKC",
     "divider-1oci_7",
     "divider-1pfFSB",
+    "divider-1sptrA",
     "divider-1ueRBG",
     "divider-1wnNcY",
     "divider-1zHRlg",
@@ -9339,7 +9378,6 @@
     "divider-3qUeLQ",
     "divider-3u-LEH",
     "divider-3wTkAL",
-    "divider-3ykJi_",
     "divider-5Xhahz",
     "divider-5YGcJb",
     "divider-8cfnUj",
@@ -10236,6 +10274,7 @@
     "emoji-GjPuqX",
     "emoji-V71N2V",
     "emoji-Z6vF9e",
+    "emoji-jX0XBO",
     "emoji-rP25_j"
   ],
   "emoji1": [
@@ -10303,6 +10342,7 @@
     "emojiContainer-11F4bw",
     "emojiContainer-1X3ARM",
     "emojiContainer-1X3IeC",
+    "emojiContainer-2NXhG5",
     "emojiContainer-2XKwXX",
     "emojiContainer-2aNuZ_",
     "emojiContainer-2h1D1q",
@@ -12294,6 +12334,7 @@
     "footer-8GI5Wq",
     "footer-A_NrEF",
     "footer-BOeUOq",
+    "footer-C2Sua1",
     "footer-C9oLp9",
     "footer-EThahA",
     "footer-GXWBBp",
@@ -12787,6 +12828,7 @@
     "fullOpacity-kH_7VD"
   ],
   "fullScreen": [
+    "fullScreen-1sVR3o",
     "fullScreen-3Qv7-0",
     "fullScreen-KhZZcz"
   ],
@@ -14042,6 +14084,7 @@
     "header-1BR0Ro",
     "header-1BxQhu",
     "header-1CyKrt",
+    "header-1E5h5S",
     "header-1EaKta",
     "header-1ElRUh",
     "header-1Fx4D1",
@@ -14143,6 +14186,7 @@
     "header-2c99jb",
     "header-2cF-SF",
     "header-2e2w0L",
+    "header-2fTcx5",
     "header-2hQs-p",
     "header-2hjw1J",
     "header-2i3oIs",
@@ -14549,6 +14593,7 @@
     "headerImage-2MJivh",
     "headerImage-2RDkJ3",
     "headerImage-2osrlm",
+    "headerImage-3VKdpC",
     "headerImage-3ilQ79",
     "headerImage-3kJBCm",
     "headerImage-3rR8Tr",
@@ -15815,6 +15860,7 @@
     "icon-iw1n8C",
     "icon-jTx1Gg",
     "icon-k0pkC5",
+    "icon-kHazV1",
     "icon-kZI9Yh",
     "icon-mJhEWn",
     "icon-nmEpWl",
@@ -16000,6 +16046,7 @@
     "iconContainer-2w-ytb",
     "iconContainer-2yKv6_",
     "iconContainer-33_6mP",
+    "iconContainer-36P2CW",
     "iconContainer-36kI2p",
     "iconContainer-36zAr1",
     "iconContainer-3LclNk",
@@ -17986,7 +18033,8 @@
     "learnMore-15guln",
     "learnMore-1HwkOB",
     "learnMore-2Vvg_h",
-    "learnMore-3QIOHy"
+    "learnMore-3QIOHy",
+    "learnMore-3qkzzd"
   ],
   "learnMoreLink": [
     "learnMoreLink-2JwgbJ",
@@ -25502,6 +25550,7 @@
     "root-2x5M19",
     "root-2yY00J",
     "root-2zfUH6",
+    "root-3Gfs8a",
     "root-3IozHK",
     "root-3J4La5",
     "root-3KaKPz",
@@ -28006,7 +28055,7 @@
     "speakerHint-SZrVqh"
   ],
   "speakerIcon": [
-    "speakerIcon-2JObAT",
+    "speakerIcon-1zPEuH",
     "speakerIcon-_g9PgM"
   ],
   "speakerRaiseHandBadge": [
@@ -28358,7 +28407,8 @@
     "stars-35huiV",
     "stars-3UP9-A",
     "stars-3ogSxU",
-    "stars-Mylz4D"
+    "stars-Mylz4D",
+    "stars-eMqPcV"
   ],
   "start": [
     "start-20MY3t"
@@ -29362,6 +29412,9 @@
   "summaryFeedbackWrapper": [
     "summaryFeedbackWrapper-3fHDbC"
   ],
+  "summaryIcon": [
+    "summaryIcon-ulLcDA"
+  ],
   "summaryInfo": [
     "summaryInfo-3hcuop"
   ],
@@ -29990,6 +30043,7 @@
     "text-1NickW",
     "text-1PfTfl",
     "text-1SHFy0",
+    "text-1Y1fjJ",
     "text-1YWAoz",
     "text-1bVRb9",
     "text-1eol0X",
@@ -30019,6 +30073,7 @@
     "text-3IbNaT",
     "text-3MkjKY",
     "text-3MpYyQ",
+    "text-3Q_82a",
     "text-3S7XCz",
     "text-3TNi3a",
     "text-3UzHA4",
@@ -31229,6 +31284,7 @@
     "title-7K5pop",
     "title-7iJ-QR",
     "title-8ffwDQ",
+    "title-B9eeG7",
     "title-BoDjin",
     "title-CDVS9k",
     "title-DMP4sJ",
@@ -31556,7 +31612,8 @@
     "tooltipIcon-pspZxn"
   ],
   "tooltipImage": [
-    "tooltipImage-3SAU3T"
+    "tooltipImage-3SAU3T",
+    "tooltipImage-3wB8UE"
   ],
   "tooltipLeft": [
     "tooltipLeft--ZiKiq"
@@ -33062,6 +33119,12 @@
   "varUpsellTooltip": [
     "varUpsellTooltip-2ii-M9"
   ],
+  "variant1": [
+    "variant1-3d2v9n"
+  ],
+  "variant2": [
+    "variant2-1aQRGQ"
+  ],
   "venmo": [
     "venmo-2lzqMX"
   ],
@@ -33523,7 +33586,7 @@
     "voiceUser-3nRK-K"
   ],
   "voiceUserContainer": [
-    "voiceUserContainer-2qYxTd"
+    "voiceUserContainer-31QymL"
   ],
   "voiceUserList": [
     "voiceUserList-21ENld",
