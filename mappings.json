@@ -464,10 +464,12 @@
     "activitiesArt-1_7xUs"
   ],
   "activitiesBirthdayIcon": [
-    "activitiesBirthdayIcon-1Ou-De"
+    "activitiesBirthdayIcon-1Ou-De",
+    "activitiesBirthdayIcon-vp7oVk"
   ],
   "activitiesBirthdayIconLight": [
-    "activitiesBirthdayIconLight-1QhKyv"
+    "activitiesBirthdayIconLight-1QhKyv",
+    "activitiesBirthdayIconLight-2Djimf"
   ],
   "activitiesContainer": [
     "activitiesContainer-1UdCaA"
@@ -998,7 +1000,8 @@
     "american-express-3OWalt"
   ],
   "amex": [
-    "amex-1FVGk1"
+    "amex-1FVGk1",
+    "amex-3qtwwv"
   ],
   "amount": [
     "amount-3hAJzp"
@@ -2125,6 +2128,7 @@
     "back-1NajWI",
     "back-1RLxsC",
     "back-2UeP6M",
+    "back-Uv5ziB",
     "back-ZdqB1k",
     "back-Zt4JKc",
     "back-b9ZW2q"
@@ -4239,6 +4243,9 @@
   "cardBrand": [
     "cardBrand-E4Ws6W"
   ],
+  "cardBrands": [
+    "cardBrands-3VQKtJ"
+  ],
   "cardContainerWithoutTopIndicator": [
     "cardContainerWithoutTopIndicator-36cvDB"
   ],
@@ -4272,6 +4279,9 @@
   ],
   "cardFooter": [
     "cardFooter-3EPEly"
+  ],
+  "cardFormHeader": [
+    "cardFormHeader-1oooZk"
   ],
   "cardHeader": [
     "cardHeader-1DraIq",
@@ -8932,6 +8942,9 @@
   "dim": [
     "dim-GXxpGm"
   ],
+  "dinersclub": [
+    "dinersclub-23rERj"
+  ],
   "directInviteSubTitle": [
     "directInviteSubTitle-1UxUyu",
     "directInviteSubTitle-2e9OMM"
@@ -9173,7 +9186,8 @@
     "discordWordmark-2Vg2R3"
   ],
   "discover": [
-    "discover-1mS7F5"
+    "discover-1mS7F5",
+    "discover-Iz-grc"
   ],
   "discoverHeader": [
     "discoverHeader-1vsvZ0"
@@ -15404,7 +15418,8 @@
   "hideEmoji": [
     "hideEmoji-1BLBHO",
     "hideEmoji-1D73Nr",
-    "hideEmoji-3W3sEI"
+    "hideEmoji-3W3sEI",
+    "hideEmoji-3wiav7"
   ],
   "hideGameUpdateProgressIndicator": [
     "hideGameUpdateProgressIndicator-gNdoqQ"
@@ -17602,6 +17617,9 @@
   "itemsContainer": [
     "itemsContainer-mAsB3S"
   ],
+  "jcb": [
+    "jcb-Ff1Gj5"
+  ],
   "join": [
     "join-3GsLBF"
   ],
@@ -19276,7 +19294,8 @@
     "master-card-7hEh9F"
   ],
   "mastercard": [
-    "mastercard-SID5lN"
+    "mastercard-SID5lN",
+    "mastercard-WtGV2v"
   ],
   "match": [
     "match-20K5f5",
@@ -22166,6 +22185,9 @@
   ],
   "paymentModalBreadcrumbs": [
     "paymentModalBreadcrumbs-2geWj3"
+  ],
+  "paymentModalLockIcon": [
+    "paymentModalLockIcon-3iNBZX"
   ],
   "paymentNote": [
     "paymentNote-1cWz9m",
@@ -25312,6 +25334,9 @@
     "rocket-1yvfNV",
     "rocket-3nJNpQ"
   ],
+  "rocketIcon": [
+    "rocketIcon-1m_qHn"
+  ],
   "role": [
     "role-1N0VqT",
     "role-1adzi2",
@@ -26100,6 +26125,8 @@
     "scroller-3j5xK2",
     "scroller-3nFW5p",
     "scroller-3oxliS",
+    "scroller-3y59C7",
+    "scroller-B4-bwK",
     "scroller-G6ZU0k",
     "scroller-IZ5d96",
     "scroller-MIi2ab",
@@ -26938,6 +26965,9 @@
   ],
   "serverBoostTabItem": [
     "serverBoostTabItem-3QwA3W"
+  ],
+  "serverEmoji": [
+    "serverEmoji-2OaL7m"
   ],
   "session": [
     "session-9khLqt"
@@ -31385,6 +31415,7 @@
     "titleContainer-2YK93J",
     "titleContainer-3Lez7G",
     "titleContainer-3fPic2",
+    "titleContainer-3hHuPp",
     "titleContainer-4uqtZw",
     "titleContainer-KMlf_h",
     "titleContainer-KfygE2",
@@ -33504,6 +33535,7 @@
     "violationList-3G6G4r"
   ],
   "visa": [
+    "visa-3AxzrI",
     "visa-3LupMy"
   ],
   "visibilityHidden": [
