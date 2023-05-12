@@ -2783,6 +2783,9 @@
   "birthdayExplanationBalloonsRight": [
     "birthdayExplanationBalloonsRight-2ZdK6w"
   ],
+  "birthdayExplanationNitroIcon": [
+    "birthdayExplanationNitroIcon-1wRcn3"
+  ],
   "birthdayExplanationText": [
     "birthdayExplanationText-2d4NO7"
   ],
@@ -4576,6 +4579,9 @@
   ],
   "celebrateContainer": [
     "celebrateContainer-1IXowf"
+  ],
+  "celebrateNitroIcon": [
+    "celebrateNitroIcon-2yBtFa"
   ],
   "celebrateSubheader": [
     "celebrateSubheader-3KUnt8"
@@ -17867,6 +17873,9 @@
   "kitBash": [
     "kitBash-34gcW7"
   ],
+  "kitBashAnimation": [
+    "kitBashAnimation-1cFnOv"
+  ],
   "kitBashContainer": [
     "kitBashContainer-7nmYyp"
   ],
@@ -28149,6 +28158,7 @@
     "sparkles-1nSL9S",
     "sparkles-1yqog1",
     "sparkles-2lzfZF",
+    "sparkles-2myNBH",
     "sparkles-32w-Af",
     "sparkles-A95Yt-",
     "sparkles-FICo2i",
