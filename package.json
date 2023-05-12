@@ -12,7 +12,7 @@
 	"author": "Ryan Cao <hello@ryanccn.dev>",
 	"license": "LGPL-3.0",
 	"scripts": {
-		"build": "tsx scripts/build.ts",
+		"build": "tsup",
 		"generate": "tsx scripts/generate/index.ts"
 	},
 	"dependencies": {
@@ -25,10 +25,11 @@
 	"devDependencies": {
 		"@actions/github": "^5.1.1",
 		"@types/node": "^18.15.11",
-		"esbuild": "^0.17.18",
 		"execa": "^7.1.1",
 		"just-compare": "^2.3.0",
+		"postcss": "^8.4.23",
 		"prettier": "^2.8.7",
+		"tsup": "^6.7.0",
 		"tsx": "^3.12.6",
 		"typescript": "^5.0.4"
 	},
