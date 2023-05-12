@@ -13029,6 +13029,9 @@
   "gem": [
     "gem-2hl315"
   ],
+  "gemIcon": [
+    "gemIcon-1rhNmW"
+  ],
   "gemIndicatorContainer": [
     "gemIndicatorContainer-PqApbX"
   ],
@@ -13723,6 +13726,9 @@
   ],
   "guildIconUnavailable": [
     "guildIconUnavailable-1NjeTR"
+  ],
+  "guildIconV2Container": [
+    "guildIconV2Container-2H8IRS"
   ],
   "guildIconWithoutImage": [
     "guildIconWithoutImage-3bOll3"
@@ -23459,6 +23465,9 @@
   "premiumTierCardsContainerSettings": [
     "premiumTierCardsContainerSettings-3_Raf8"
   ],
+  "premiumTooltipFooterBackground": [
+    "premiumTooltipFooterBackground-3c049a"
+  ],
   "premiumTrialAcknowledgedBadge": [
     "premiumTrialAcknowledgedBadge-2QxbU_"
   ],
@@ -31683,6 +31692,9 @@
   "tooltipBlack": [
     "tooltipBlack-3X399X"
   ],
+  "tooltipBodyContainer": [
+    "tooltipBodyContainer-OhZt72"
+  ],
   "tooltipBottom": [
     "tooltipBottom-1itlv3"
   ],
@@ -31748,11 +31760,17 @@
   "tooltipPremium": [
     "tooltipPremium-1e5k_2"
   ],
+  "tooltipPremiumFooterContainer": [
+    "tooltipPremiumFooterContainer-3Z8jwf"
+  ],
   "tooltipPrimary": [
     "tooltipPrimary-2466a2"
   ],
   "tooltipRed": [
     "tooltipRed-2Pb7EW"
+  ],
+  "tooltipRemovePadding": [
+    "tooltipRemovePadding-1zEoQp"
   ],
   "tooltipRight": [
     "tooltipRight-1UPNyA"
