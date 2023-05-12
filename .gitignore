@@ -1,8 +1,23 @@
+# macOS
+
 .DS_Store
+
+# IDE
 
 .vscode/
 .idea/
 
-node_modules/
+# Node.js
 
+node_modules/
 dist/
+
+# yarn (without zero-installs)
+
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
