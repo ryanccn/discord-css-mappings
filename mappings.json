@@ -5617,6 +5617,9 @@
     "clickableContainer-1N_Wn8",
     "clickableContainer-3YtEIY"
   ],
+  "clickableContainerReducedMotion": [
+    "clickableContainerReducedMotion-2fMtsd"
+  ],
   "clickableGameWrapper": [
     "clickableGameWrapper-1xHQQL"
   ],
@@ -12195,6 +12198,9 @@
   ],
   "flipCardInnerFlipped": [
     "flipCardInnerFlipped-TpPsYw"
+  ],
+  "flipCardInnerReducedMotion": [
+    "flipCardInnerReducedMotion-3pUwJa"
   ],
   "flipCardOpened": [
     "flipCardOpened-hiYLHX"
