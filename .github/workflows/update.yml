@@ -12,14 +12,18 @@ jobs:
   update:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-node@v3
+      - name: Checkout repository
+        uses: actions/checkout@v3
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
         with:
           node-version: 19
+      - name: Install pnpm
+        uses: pnpm/action-setup@v2
 
       - name: Install dependencies
-        run: yarn install --frozen-lockfile
+        run: pnpm install
       - name: Do everything
-        run: yarn generate
+        run: pnpm generate
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
