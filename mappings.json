@@ -520,6 +520,12 @@
   "activityCardDetails": [
     "activityCardDetails-F6IN_s"
   ],
+  "activityCardHoverHint": [
+    "activityCardHoverHint-2YGYcG"
+  ],
+  "activityCardHoverHintReducedMotion": [
+    "activityCardHoverHintReducedMotion-1xK00G"
+  ],
   "activityCardImage": [
     "activityCardImage-26EXZ5"
   ],
@@ -14070,6 +14076,39 @@
   ],
   "handleIconFrameStart": [
     "handleIconFrameStart-2ie6AP"
+  ],
+  "happeningNowAvatarNames": [
+    "happeningNowAvatarNames-3sVYp2"
+  ],
+  "happeningNowAvatars": [
+    "happeningNowAvatars-32AEpp"
+  ],
+  "happeningNowCard": [
+    "happeningNowCard-LQzIBo"
+  ],
+  "happeningNowCardForeground": [
+    "happeningNowCardForeground-1cYPEb"
+  ],
+  "happeningNowCardImg": [
+    "happeningNowCardImg-1mYG_w"
+  ],
+  "happeningNowCardReducedMotion": [
+    "happeningNowCardReducedMotion-1g0V-K"
+  ],
+  "happeningNowChannelAndGuildName": [
+    "happeningNowChannelAndGuildName-1WbrEm"
+  ],
+  "happeningNowContainer": [
+    "happeningNowContainer--FsXBo"
+  ],
+  "happeningNowJoin": [
+    "happeningNowJoin-38S9z-"
+  ],
+  "happeningNowJoinReducedMotion": [
+    "happeningNowJoinReducedMotion-8vCDkJ"
+  ],
+  "happeningNowList": [
+    "happeningNowList-d5GEgX"
   ],
   "hasActionMaxWidth": [
     "hasActionMaxWidth-1TPbjW"
@@ -31136,6 +31175,9 @@
   "tilePriceWithVisibleBuyButton": [
     "tilePriceWithVisibleBuyButton-3gR1xs"
   ],
+  "tileScrollerContainer": [
+    "tileScrollerContainer-pzM0xG"
+  ],
   "tileSizer": [
     "tileSizer-4EltaN",
     "tileSizer-GVC1ge",
@@ -33960,9 +34002,6 @@
   ],
   "whatsNewItemsContainer": [
     "whatsNewItemsContainer-1dyM2M"
-  ],
-  "whatsNewScrollContainer": [
-    "whatsNewScrollContainer-3J-LJI"
   ],
   "whatsNewTextArea": [
     "whatsNewTextArea-2thzJN"
