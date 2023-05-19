@@ -2150,12 +2150,16 @@
     "backButton-2YJKzh",
     "backButton-2rLJZw",
     "backButton-2wqnhu",
+    "backButton-3-ezLT",
     "backButton-3I5R-E",
     "backButton-3a0qc1",
     "backButton-KHAYc5",
     "backButton-bSKWLe",
     "backButton-e5XG2b",
     "backButton-qEr8R1"
+  ],
+  "backButtonArrow": [
+    "backButtonArrow-1HsSZs"
   ],
   "backButtonColor": [
     "backButtonColor-5k5ViL"
@@ -2173,6 +2177,7 @@
   "backButtonInner": [
     "backButtonInner-1M1p4_",
     "backButtonInner-2MYLFg",
+    "backButtonInner-3AV9-x",
     "backButtonInner-Y4sG1C"
   ],
   "backButtonSize": [
@@ -2206,6 +2211,7 @@
     "backdrop-Y3cI-s"
   ],
   "background": [
+    "background-11Vibj",
     "background-12kWdX",
     "background-1Nvozn",
     "background-1O4oOj",
@@ -4619,6 +4625,7 @@
     "centerTargetTooltip-1-qA7T"
   ],
   "centerText": [
+    "centerText-1KZzeq",
     "centerText-1M9ruU",
     "centerText-1ZkDhV",
     "centerText-1cNX6b",
@@ -12512,6 +12519,9 @@
     "footerSeparator-3U8YsT",
     "footerSeparator-b6VH1V"
   ],
+  "footerSpacing": [
+    "footerSpacing-3N6Oem"
+  ],
   "footerStepped": [
     "footerStepped-NTlQlm"
   ],
@@ -12925,6 +12935,9 @@
   "fullScreenHeroLogo": [
     "fullScreenHeroLogo-1ErIf-"
   ],
+  "fullScreenHeroSmallerPadding": [
+    "fullScreenHeroSmallerPadding-1KcyoH"
+  ],
   "fullWidth": [
     "fullWidth-2KuAiS",
     "fullWidth-2MtxAL",
@@ -12940,9 +12953,6 @@
   ],
   "fullscreen": [
     "fullscreen-3SAor2"
-  ],
-  "fullscreenContainer": [
-    "fullscreenContainer-2SGcpl"
   ],
   "fullscreenExistingSubscriberSpacing": [
     "fullscreenExistingSubscriberSpacing--CUPb7"
@@ -15234,7 +15244,8 @@
     "headingTier1-2oLnhT"
   ],
   "headings": [
-    "headings-1UkJbq"
+    "headings-1UkJbq",
+    "headings-1W00dW"
   ],
   "healthFailingDescription": [
     "healthFailingDescription-1G8ekK",
@@ -15312,7 +15323,8 @@
     "hero-1EVzao",
     "hero-1aNo0v",
     "hero-1gKM4P",
-    "hero-1xn1QT"
+    "hero-1xn1QT",
+    "hero-2oPZij"
   ],
   "heroBanner": [
     "heroBanner-1nr_aF",
@@ -18266,6 +18278,9 @@
   "lifecycleText": [
     "lifecycleText-2Pkz27"
   ],
+  "lifted": [
+    "lifted-3MieEE"
+  ],
   "light": [
     "light-RK7d-n"
   ],
@@ -18303,6 +18318,12 @@
   ],
   "lightOverlay": [
     "lightOverlay-3UweYE"
+  ],
+  "lightTextLink": [
+    "lightTextLink-x9Usfy"
+  ],
+  "lightThemeColorOnly": [
+    "lightThemeColorOnly-2Rfmga"
   ],
   "lightTwo": [
     "lightTwo-22kK5G"
@@ -18943,6 +18964,7 @@
     "logo-2jr-eo",
     "logo-35nkkB",
     "logo-3DNr4i",
+    "logo-3S-3D9",
     "logo-3ac3fP",
     "logo-NKOv2w",
     "logo-ScFp2k",
@@ -27112,7 +27134,6 @@
   ],
   "settingsContainer": [
     "settingsContainer-2MNHoQ",
-    "settingsContainer-36qZZ9",
     "settingsContainer-3euU4M"
   ],
   "settingsContent": [
@@ -27146,6 +27167,9 @@
   ],
   "settingsHero": [
     "settingsHero-2Me_mE"
+  ],
+  "settingsHeroNoBackground": [
+    "settingsHeroNoBackground-2c52XT"
   ],
   "settingsIcon": [
     "settingsIcon-22n6lF"
@@ -32069,6 +32093,9 @@
   "trialHeader": [
     "trialHeader-1J-SBZ"
   ],
+  "trialMarketingMargin": [
+    "trialMarketingMargin-2PPEKy"
+  ],
   "trialOfferCopyBody": [
     "trialOfferCopyBody-2s8ffX"
   ],
@@ -34340,6 +34367,9 @@
   ],
   "yellowMessageBlock": [
     "yellowMessageBlock-30xvbA"
+  ],
+  "zIndex1": [
+    "zIndex1-2EIyei"
   ],
   "zalgo": [
     "zalgo-26OfGz"
