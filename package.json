@@ -1,6 +1,6 @@
 {
 	"name": "discord-css-mappings",
-	"version": "0.1.2",
+	"version": "0.1.3",
 	"module": "dist/index.js",
 	"main": "dist/index.cjs",
 	"files": [
