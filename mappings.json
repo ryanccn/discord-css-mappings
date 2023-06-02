@@ -520,6 +520,9 @@
   "activityCard": [
     "activityCard-3EABg3"
   ],
+  "activityCardButton": [
+    "activityCardButton-7obsqs"
+  ],
   "activityCardDetails": [
     "activityCardDetails-F6IN_s"
   ],
@@ -1067,6 +1070,7 @@
     "animated-1th8Z0",
     "animated-3-2KLW",
     "animated-3y90pd",
+    "animated-N2UW_e",
     "animated-bWeJ4R"
   ],
   "animatedBannerHoverLayer": [
@@ -1780,6 +1784,12 @@
   "authorize": [
     "authorize-2xTTr-"
   ],
+  "authorizedSuccessSubtext": [
+    "authorizedSuccessSubtext-3TL_wm"
+  ],
+  "authorizedSuccessWrapper": [
+    "authorizedSuccessWrapper-5FsKkl"
+  ],
   "auto": [
     "auto-1QyTTa",
     "auto-2TJ1RH"
@@ -1950,6 +1960,7 @@
     "avatar-EbHB32",
     "avatar-HoD8AX",
     "avatar-Is6P00",
+    "avatar-MwXD3e",
     "avatar-b2yTGD",
     "avatar-l9Txm5",
     "avatar-lE51Yj",
@@ -2160,16 +2171,16 @@
     "backButton-2YJKzh",
     "backButton-2rLJZw",
     "backButton-2wqnhu",
-    "backButton-3-ezLT",
     "backButton-3I5R-E",
     "backButton-3a0qc1",
+    "backButton-3tq76t",
     "backButton-KHAYc5",
     "backButton-bSKWLe",
     "backButton-e5XG2b",
     "backButton-qEr8R1"
   ],
   "backButtonArrow": [
-    "backButtonArrow-1HsSZs"
+    "backButtonArrow-1Ea04W"
   ],
   "backButtonColor": [
     "backButtonColor-5k5ViL"
@@ -2186,8 +2197,8 @@
   ],
   "backButtonInner": [
     "backButtonInner-1M1p4_",
+    "backButtonInner-1fPNLD",
     "backButtonInner-2MYLFg",
-    "backButtonInner-3AV9-x",
     "backButtonInner-Y4sG1C"
   ],
   "backButtonSize": [
@@ -2221,12 +2232,12 @@
     "backdrop-Y3cI-s"
   ],
   "background": [
-    "background-11Vibj",
     "background-12kWdX",
     "background-1Nvozn",
     "background-1O4oOj",
     "background-1Rr0yL",
     "background-1VboA7",
+    "background-1gEOze",
     "background-29WdEM",
     "background-2DrDpN",
     "background-2avFV1",
@@ -2349,6 +2360,7 @@
   "badge": [
     "badge-1HH8ME",
     "badge-1ImhlC",
+    "badge-1hTRAi",
     "badge-22Hq1u",
     "badge-2WCXoe",
     "badge-2oEvp8",
@@ -2364,14 +2376,16 @@
     "badge-FSo_xX",
     "badge-g0vAzc",
     "badge-jJsTpx",
-    "badge-xAeZUn"
+    "badge-xAeZUn",
+    "badge-yTfjej"
   ],
   "badgeContainer": [
     "badgeContainer-2a1nPp",
     "badgeContainer-snqqRW"
   ],
   "badgeIcon": [
-    "badgeIcon-COqTDw"
+    "badgeIcon-COqTDw",
+    "badgeIcon-sUUAoP"
   ],
   "badgeIconBackground": [
     "badgeIconBackground-2cOfzA"
@@ -2462,6 +2476,7 @@
     "banner-25RWjr",
     "banner-2VHeQm",
     "banner-2orrPv",
+    "banner-2p_lwS",
     "banner-3-oqyl",
     "banner-3D8GgT",
     "banner-3Hf665",
@@ -2960,6 +2975,7 @@
     "body-3s_zmS",
     "body-3sfu1Q",
     "body-3u8E_k",
+    "body-3wqyAl",
     "body-3xQeA6",
     "body-6cb7rT",
     "body-E4jDoM",
@@ -3670,6 +3686,7 @@
     "button-1CA3i7",
     "button-1EGGcP",
     "button-1Ofqs0",
+    "button-1QJ6Yp",
     "button-1T9qra",
     "button-1U79Hu",
     "button-1WdP1D",
@@ -3739,6 +3756,7 @@
     "button-3BqayW",
     "button-3Juy9w",
     "button-3M8h3F",
+    "button-3TsMJA",
     "button-3Vyz67",
     "button-3WZC0G",
     "button-3Zmhwf",
@@ -3888,6 +3906,7 @@
     "buttonIcon-2Zsrs2",
     "buttonIcon-39cvgi",
     "buttonIcon-3Jkxz7",
+    "buttonIcon-3NHqd3",
     "buttonIcon-3rUffx",
     "buttonIcon-OikXGW"
   ],
@@ -3895,6 +3914,7 @@
     "buttonInner-1RE0NV",
     "buttonInner-1e_cCG",
     "buttonInner-1vlPzX",
+    "buttonInner-1wYJY5",
     "buttonInner-2Y5lnd",
     "buttonInner-3aRbcx",
     "buttonInner-Nztx4M"
@@ -4206,6 +4226,7 @@
     "card-1j9yy6",
     "card-1kD5uM",
     "card-1rhKXq",
+    "card-28ghuJ",
     "card-2AAZ47",
     "card-2ART2V",
     "card-2EUiNF",
@@ -5378,6 +5399,9 @@
     "checkmarkCircle-2LCcdI",
     "checkmarkCircle-3slk6k"
   ],
+  "checkmarkHeavy": [
+    "checkmarkHeavy-3B7fot"
+  ],
   "checkmarkIcon": [
     "checkmarkIcon-21vhV_",
     "checkmarkIcon-2YUUhA",
@@ -5526,6 +5550,7 @@
     "clearButton-2ucDjK",
     "clearButton-3-toB6",
     "clearButton-30pQSl",
+    "clearButton-3ppKrD",
     "clearButton-BpcAtJ"
   ],
   "clearButtonWrapper": [
@@ -6059,6 +6084,9 @@
   ],
   "collapsibleItem": [
     "collapsibleItem-2E3ctT"
+  ],
+  "collected": [
+    "collected-S9uF3G"
   ],
   "collectionBottomMargin": [
     "collectionBottomMargin-Tqi9ac"
@@ -7826,6 +7854,7 @@
     "countdown-1jWQ0r",
     "countdown-2AP5g_",
     "countdown-2tnWO5",
+    "countdown-39-6rG",
     "countdown-3Imv84"
   ],
   "countdownColumn": [
@@ -8055,6 +8084,7 @@
     "cta-1XhfrG",
     "cta-1ioHap",
     "cta-25g9OT",
+    "cta-28oIaz",
     "cta-3-AFNF",
     "cta-35vqLn",
     "cta-3J5umb",
@@ -8389,6 +8419,9 @@
   ],
   "day": [
     "day-1uOKpp"
+  ],
+  "daysRemaining": [
+    "daysRemaining-3exbYe"
   ],
   "ddrArrows": [
     "ddrArrows-24s05s"
@@ -11138,7 +11171,8 @@
     "errorIcon-2_fnyO",
     "errorIcon-2tohBs",
     "errorIcon-3JLB4P",
-    "errorIcon-3Ub25I"
+    "errorIcon-3Ub25I",
+    "errorIcon-CjW-X3"
   ],
   "errorImage": [
     "errorImage-13dCu0",
@@ -11226,6 +11260,9 @@
   ],
   "errorTitle": [
     "errorTitle-RN9HwZ"
+  ],
+  "errorToolbar": [
+    "errorToolbar-mLgL_6"
   ],
   "errorTooltip": [
     "errorTooltip-7DGmVH"
@@ -12451,6 +12488,9 @@
     "footerAction-2KGeqX",
     "footerAction-cEV-Po"
   ],
+  "footerActionButtons": [
+    "footerActionButtons-3ZCd7x"
+  ],
   "footerActions": [
     "footerActions-2Q4sQt"
   ],
@@ -13400,6 +13440,7 @@
     "grid-21dB-S",
     "grid-25LEur",
     "grid-2a45cj",
+    "grid-2tvoPh",
     "grid-3gqrYc",
     "grid-5BH14o"
   ],
@@ -14944,6 +14985,7 @@
     "headerText-3jiRL8",
     "headerText-3pn5sc",
     "headerText-Je-Xed",
+    "headerText-VzcABJ",
     "headerText-W7cKEZ",
     "headerText-cji35k",
     "headerText-jgQVVJ"
@@ -15346,7 +15388,8 @@
   ],
   "headings": [
     "headings-1UkJbq",
-    "headings-1W00dW"
+    "headings-2vCq_i",
+    "headings-3l1-Le"
   ],
   "healthFailingDescription": [
     "healthFailingDescription-1G8ekK",
@@ -15425,7 +15468,7 @@
     "hero-1aNo0v",
     "hero-1gKM4P",
     "hero-1xn1QT",
-    "hero-2oPZij"
+    "hero-7qsdjV"
   ],
   "heroBanner": [
     "heroBanner-1nr_aF",
@@ -15495,6 +15538,7 @@
     "hidden-1JgVPk",
     "hidden-1aBGtr",
     "hidden-1hWPD6",
+    "hidden-1mUQ8-",
     "hidden-1pyqv0",
     "hidden-20fgVr",
     "hidden-27eifz",
@@ -15912,6 +15956,7 @@
     "icon-1dGlZy",
     "icon-1dX6vz",
     "icon-1e94i3",
+    "icon-1eqQfl",
     "icon-1gCBMK",
     "icon-1hid89",
     "icon-1kx1ir",
@@ -17520,6 +17565,9 @@
   "inviteRowButton": [
     "inviteRowButton-3hcOhY"
   ],
+  "inviteRowEmptyState": [
+    "inviteRowEmptyState-2Py2no"
+  ],
   "inviteRowInfo": [
     "inviteRowInfo-3Sskcq"
   ],
@@ -18456,10 +18504,12 @@
     "line-I7PiJt"
   ],
   "lineClamp1": [
-    "lineClamp1-1voJi7"
+    "lineClamp1-1voJi7",
+    "lineClamp1-3k0IDe"
   ],
   "lineClamp2Plus": [
-    "lineClamp2Plus-2SCQmH"
+    "lineClamp2Plus-2SCQmH",
+    "lineClamp2Plus-2imq8R"
   ],
   "lineHeightReset": [
     "lineHeightReset-1WxXXk"
@@ -19024,6 +19074,7 @@
   "lockIcon": [
     "lockIcon-1-NLXj",
     "lockIcon-1DvPA6",
+    "lockIcon-2PpbsO",
     "lockIcon-3t6Ow0"
   ],
   "lockIconContainer": [
@@ -19060,6 +19111,7 @@
   "logo": [
     "logo-1JLUjx",
     "logo-1_2RuF",
+    "logo-1qZDnS",
     "logo-2LCGGd",
     "logo-2Rw1Ex",
     "logo-2VSUIa",
@@ -19068,7 +19120,6 @@
     "logo-2jr-eo",
     "logo-35nkkB",
     "logo-3DNr4i",
-    "logo-3S-3D9",
     "logo-3ac3fP",
     "logo-NKOv2w",
     "logo-ScFp2k",
@@ -20337,6 +20388,7 @@
     "modalContent-3a_unv",
     "modalContent-3nEUDf",
     "modalContent-3z4ESM",
+    "modalContent-4QmMqj",
     "modalContent-4rcT7I",
     "modalContent-754tWa",
     "modalContent-9EvSP5",
@@ -20398,6 +20450,7 @@
     "modalHeader-1hF3w-",
     "modalHeader-1nzW1E",
     "modalHeader-1pRUhs",
+    "modalHeader-1rVO6t",
     "modalHeader-1v3X_M",
     "modalHeader-25uwMc",
     "modalHeader-2Be19q",
@@ -20449,7 +20502,8 @@
     "modalRoot-3dl2RN",
     "modalRoot-Cm6Ji_",
     "modalRoot-RvYXvb",
-    "modalRoot-f1dls2"
+    "modalRoot-f1dls2",
+    "modalRoot-ni21gU"
   ],
   "modalSection": [
     "modalSection-1Rsofh",
@@ -22107,6 +22161,7 @@
     "page-17zZ-Y",
     "page-1VIOEm",
     "page-1d76_l",
+    "page-2I4by5",
     "page-30p_Rr",
     "page-3oG5OQ"
   ],
@@ -23746,6 +23801,9 @@
   "previewHeader": [
     "previewHeader-3XkwNe"
   ],
+  "previewHeading": [
+    "previewHeading-obFXK_"
+  ],
   "previewHover": [
     "previewHover--hT3kb",
     "previewHover-H_atpI"
@@ -23939,6 +23997,9 @@
   "problemsText": [
     "problemsText-1DBHh5"
   ],
+  "productActionButton": [
+    "productActionButton-31AgRf"
+  ],
   "productActionMenuButton": [
     "productActionMenuButton-1nLyoz"
   ],
@@ -23946,10 +24007,21 @@
     "productActionMenuIcon-3-Oyyg"
   ],
   "productCard": [
+    "productCard-10T4y5",
     "productCard-jomyWr"
   ],
+  "productCardClickable": [
+    "productCardClickable-3xDCw-"
+  ],
+  "productDescription": [
+    "productDescription-WCjjQk"
+  ],
   "productDetails": [
+    "productDetails-18hXGG",
     "productDetails-KQNd4O"
+  ],
+  "productFields": [
+    "productFields-3MlTpK"
   ],
   "productListings": [
     "productListings-6uErEi"
@@ -23960,8 +24032,16 @@
   "productName": [
     "productName-3HL0K6"
   ],
+  "productPreview": [
+    "productPreview-T3FojC"
+  ],
   "productThumbnail": [
+    "productThumbnail-2PeX7X",
     "productThumbnail-5xJTjt"
+  ],
+  "productThumbnailContainer": [
+    "productThumbnailContainer-aQtDFJ",
+    "productThumbnailContainer-iSvWHI"
   ],
   "profile": [
     "profile-1o7I_1",
@@ -24393,12 +24473,18 @@
   "purchaseConfirmation": [
     "purchaseConfirmation-1Zlbix"
   ],
+  "purchaseDetails": [
+    "purchaseDetails-32ByvF"
+  ],
   "purchaseError": [
     "purchaseError-270Wfm",
     "purchaseError-36xKbQ"
   ],
   "purchaseTerms": [
     "purchaseTerms-2JARBd"
+  ],
+  "purchaseToUnlockBadge": [
+    "purchaseToUnlockBadge-A3TLAq"
   ],
   "purchaseUnit": [
     "purchaseUnit-3zccCk"
@@ -26698,6 +26784,7 @@
     "section-1qerRj",
     "section-1ta4TY",
     "section-28YDOf",
+    "section-2JyDX_",
     "section-2ZF4mt",
     "section-2zQkYM",
     "section-38saDi",
@@ -26934,6 +27021,9 @@
   ],
   "selectSearch": [
     "selectSearch-bH4VRf"
+  ],
+  "selectTeamButton": [
+    "selectTeamButton-3yMx5j"
   ],
   "selectTeamContainer": [
     "selectTeamContainer-1O8qat"
@@ -27465,6 +27555,10 @@
   ],
   "showEvents": [
     "showEvents-1Pr4_D"
+  ],
+  "showHideButton": [
+    "showHideButton-1X9tSS",
+    "showHideButton-25bHRG"
   ],
   "showHistory": [
     "showHistory-1k8bn0"
@@ -29706,6 +29800,9 @@
   "supportCallToAction": [
     "supportCallToAction-1UxtYu"
   ],
+  "supportHeader": [
+    "supportHeader-tLjS3c"
+  ],
   "supportingText": [
     "supportingText-2L8bzJ"
   ],
@@ -31357,6 +31454,12 @@
   ],
   "timelineVideo": [
     "timelineVideo-3n_Fzk"
+  ],
+  "timer": [
+    "timer-1fOG45"
+  ],
+  "timerFill": [
+    "timerFill-1o82yu"
   ],
   "timerIcon": [
     "timerIcon-2IdR7O"
