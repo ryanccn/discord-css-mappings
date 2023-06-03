@@ -10,10 +10,16 @@ const testCSS = css`
 	.discord-mainContent {
 		opacity: 0.1;
 	}
+
+	[class*="mainContent-"] {
+		opacity: 0.2;
+	}
 `.trim();
 
 (async () => {
-	const output = await postcss([plugin({})]).process(testCSS, {
+	const output = await postcss([
+		plugin({ rewrite: { attributes: true } }),
+	]).process(testCSS, {
 		from: "test.css",
 		to: "test.output.css",
 	});

@@ -1,6 +1,6 @@
 {
 	"name": "@discord-css-mappings/postcss-plugin",
-	"version": "0.1.0",
+	"version": "0.2.0",
 	"description": "Discord CSS Mappings's core functionality",
 	"main": "./dist/index.js",
 	"module": "./dist/index.mjs",

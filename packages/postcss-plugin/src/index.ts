@@ -11,6 +11,9 @@ if (!("__dirname" in globalThis))
 
 interface PluginConfig {
 	suppressWarnings?: boolean;
+	rewrite?: {
+		attributes?: boolean;
+	};
 }
 
 const plugin: PluginCreator<PluginConfig> = (config) => {
@@ -53,6 +56,28 @@ const plugin: PluginCreator<PluginConfig> = (config) => {
 						);
 					}
 				});
+
+				if (config?.rewrite?.attributes) {
+					tree.walkAttributes((node) => {
+						if (node.attribute !== "class" || !node.value) return;
+						const key = node.value.split("-")[0];
+						const mappedClasses = mappings[key];
+						if (!mappedClasses) return;
+
+						if (mappedClasses.length <= 20) {
+							node.replaceWith(
+								mappedClasses.length > 1
+									? parser.pseudo({
+											value: `:is`,
+											nodes: mappedClasses.map((k) =>
+												parser.className({ value: k })
+											),
+									  })
+									: parser.className({ value: mappedClasses[0] })
+							);
+						}
+					});
+				}
 			}).process(rule.selector);
 		},
 	};
