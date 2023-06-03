@@ -1,23 +1,24 @@
 import { type PluginCreator } from "postcss";
 import parser from "postcss-selector-parser";
 
-import { readFile } from "node:fs/promises";
-import { join } from "node:path";
+import { getMappings, type MappingsData } from "@discord-css-mappings/core";
 
-import { type MappingsFile } from "./scripts/generate/mappings";
 import { fileURLToPath } from "node:url";
 import { bold, yellow } from "kleur/colors";
 
 if (!("__dirname" in globalThis))
 	__dirname = fileURLToPath(new URL(".", import.meta.url));
 
-const plugin: PluginCreator<{}> = () => {
-	let mappings: MappingsFile;
+interface PluginConfig {
+	suppressWarnings?: boolean;
+}
+
+const plugin: PluginCreator<PluginConfig> = (config) => {
+	let mappings: MappingsData;
 
 	const loadMappings = async () => {
-		mappings = await readFile(join(__dirname, "..", "mappings.json"), {
-			encoding: "utf-8",
-		}).then(JSON.parse);
+		console.log("Fetching mappings from Discord...");
+		mappings = await getMappings();
 	};
 
 	return {
@@ -30,7 +31,7 @@ const plugin: PluginCreator<{}> = () => {
 					for (const key of Object.keys(mappings)) {
 						if (node.value !== `discord-${key}`) continue;
 
-						if (mappings[key].length > 5) {
+						if (mappings[key].length > 20 && !config?.suppressWarnings) {
 							console.warn(
 								yellow(
 									`The class ${bold(key)} has ${

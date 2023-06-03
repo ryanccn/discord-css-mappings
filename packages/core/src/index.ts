@@ -7,31 +7,35 @@ const safeFetch = async (url: string) => {
 	return res.text();
 };
 
-export type MappingsFile = { [k: string]: string[] };
+export type MappingsData = { [className: string]: string[] };
 
-export const getMappings = async (): Promise<MappingsFile> => {
+export const getMappings = async (): Promise<MappingsData> => {
 	const html = await safeFetch("https://discord.com/app");
+	const htmlLink = html.match(/<link rel="stylesheet" href="([/a-zA-Z0-9.]+)"/);
+	if (!htmlLink) {
+		throw new Error("Could not fetch upstream Discord CSS source");
+	}
+
 	const originalCSSURL = new URL(
-		html.match(/<link rel="stylesheet" href="([/a-zA-Z0-9\.]+)"/)![1],
+		htmlLink[1],
 		"https://discord.com/"
 	).toString();
 	const originalCSS = await safeFetch(originalCSSURL);
 
 	const classNameRegex =
-		/\.([a-zA-Z0-9\-]+)\-[a-zA-Z0-9\_\-]{6}(?=(\.|,|\{|\[| |:|\)))/g;
+		/\.([a-zA-Z0-9-]+)-[a-zA-Z0-9_-]{6}(?=(\.|,|\{|\[| |:|\)))/g;
 	const classNameMap = new Map<string, string[]>();
 
 	[...originalCSS.matchAll(classNameRegex)].forEach((v) => {
 		const mappedClass = v[0].substring(1);
 
-		if (!classNameMap.has(v[1])) {
-			classNameMap.set(v[1], [mappedClass]);
-		} else if (!classNameMap.get(v[1])!.includes(mappedClass)) {
-			classNameMap.get(v[1])!.push(mappedClass);
-		}
+		const mapValue = classNameMap.get(v[1]);
+		if (!mapValue) classNameMap.set(v[1], [mappedClass]);
+		else if (!mapValue.includes(mappedClass)) mapValue.push(mappedClass);
 	});
 
 	for (const key of classNameMap.keys()) {
+		// eslint-disable-next-line @typescript-eslint/no-non-null-assertion
 		classNameMap.get(key)!.sort();
 	}
 
