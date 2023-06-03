@@ -3,11 +3,7 @@ import parser from "postcss-selector-parser";
 
 import { getMappings, type MappingsData } from "@discord-css-mappings/core";
 
-import { fileURLToPath } from "node:url";
 import { bold, yellow } from "kleur/colors";
-
-if (!("__dirname" in globalThis))
-	__dirname = fileURLToPath(new URL(".", import.meta.url));
 
 interface PluginConfig {
 	suppressWarnings?: boolean;
