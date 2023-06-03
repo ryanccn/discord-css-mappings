@@ -550,11 +550,20 @@
   "activityCardReducedMotion": [
     "activityCardReducedMotion-20YSCz"
   ],
+  "activityCardSocialProofContainer": [
+    "activityCardSocialProofContainer-Mx8Pc3"
+  ],
   "activityCardTag": [
     "activityCardTag-glB7qz"
   ],
   "activityCardTagContainer": [
     "activityCardTagContainer-NNluK2"
+  ],
+  "activityCardUsersHavePlayedContainer": [
+    "activityCardUsersHavePlayedContainer-3bY-sq"
+  ],
+  "activityCardUsersHavePlayedText": [
+    "activityCardUsersHavePlayedText-24oDJc"
   ],
   "activityCharacterPhibi": [
     "activityCharacterPhibi-3dKc-8"
@@ -9213,6 +9222,7 @@
     "disabledTooltipWrapper-3byk4E"
   ],
   "disclaimer": [
+    "disclaimer-3g62gk",
     "disclaimer-v7eBJh"
   ],
   "discordConsentBody": [
@@ -15575,6 +15585,7 @@
     "hidden-3N1n4x",
     "hidden-3V2cj4",
     "hidden-3X-9Lz",
+    "hidden-3eRB6w",
     "hidden-3hZBQ6",
     "hidden-3h_2Bu",
     "hidden-OSiy-m",
@@ -15621,9 +15632,6 @@
   ],
   "hiddenText": [
     "hiddenText-1FWWFB"
-  ],
-  "hiddenVideo": [
-    "hiddenVideo-B2uJmB"
   ],
   "hiddenVisually": [
     "hiddenVisually-20yytR",
@@ -22189,6 +22197,7 @@
     "page-1VIOEm",
     "page-1d76_l",
     "page-2I4by5",
+    "page-2dwf_i",
     "page-30p_Rr",
     "page-3oG5OQ"
   ],
@@ -28664,6 +28673,7 @@
   "spoiler": [
     "spoiler-1DvH94",
     "spoiler-1T2VP4",
+    "spoiler-1ZTq3-",
     "spoiler-2tIqOQ",
     "spoiler-2zwH_u",
     "spoiler-34VzyY",
@@ -33382,6 +33392,9 @@
   ],
   "userRowSubText": [
     "userRowSubText-yuEaUZ"
+  ],
+  "userRowText": [
+    "userRowText-fizOLo"
   ],
   "userSelectNone": [
     "userSelectNone-3AtPzf"
