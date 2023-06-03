@@ -7,7 +7,7 @@ A [PostCSS](https://postcss.org/) plugin for Discord CSS Mappings.
 Install this as a PostCSS plugin alongside PostCSS itself:
 
 ```console
-$ yarn add @discord-css-mappings/postcss-plugin postcss
+$ yarn add @discord-css-mappings/postcss-plugin @discord-css-mappings/core postcss
 ```
 
 Then, configure the plugin in `postcss.config.cjs`.
