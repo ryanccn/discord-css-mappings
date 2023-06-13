@@ -16,7 +16,7 @@ const plugin: PluginCreator<PluginConfig> = (config) => {
 	let mappings: MappingsData;
 
 	const loadMappings = async () => {
-		console.log("Fetching mappings from Discord...");
+		console.error("Fetching mappings from Discord...");
 		mappings = await getMappings();
 	};
 

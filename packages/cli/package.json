@@ -1,0 +1,34 @@
+{
+	"name": "@discord-css-mappings/cli",
+	"version": "0.1.0",
+	"description": "Discord CSS Mappings's CLI",
+	"bin": {
+		"discord-css-mappings": "dist/index.js"
+	},
+	"files": [
+		"README.md",
+		"LICENSE",
+		"dist"
+	],
+	"scripts": {
+		"watch": "tsup --watch",
+		"build": "tsup"
+	},
+	"keywords": [
+		"data",
+		"css",
+		"postcss",
+		"discord"
+	],
+	"author": "Ryan Cao <hello@ryanccn.dev>",
+	"license": "GPL-3.0-only",
+	"devDependencies": {
+		"@types/node": "^20.2.5",
+		"tsup": "^6.7.0",
+		"typescript": "^5.1.3"
+	},
+	"dependencies": {
+		"@discord-css-mappings/postcss-plugin": "workspace:^",
+		"postcss": "^8.4.24"
+	}
+}
